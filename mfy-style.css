@@ -170,41 +170,41 @@ background-color: #ccc;
 
 /* ICONS */ 
 
-.icon-restaurant {background: url('../icons/restaurant2.png') center center no-repeat;} 
+.icon-restaurant {background: url('http://mappingforyou.eu/icons/restaurant2.png') center center no-repeat;} 
 
-.icon-specialites {background: url('../icons/cheese2.png') center center no-repeat;} 
+.icon-specialites {background: url('http://mappingforyou.eu/icons/cheese2.png') center center no-repeat;} 
 
-.icon-vins {background: url('../icons/vins.png') center center no-repeat;} 
+.icon-vins {background: url('http://mappingforyou.eu/icons/vins.png') center center no-repeat;} 
 
-.icon-supermarche {background: url('../icons/supermarche.png') center center no-repeat;} 
+.icon-supermarche {background: url('http://mappingforyou.eu/icons/supermarche.png') center center no-repeat;} 
 
-.icon-randonnee {background: url('../icons/randonnee.png') center center no-repeat;} 
+.icon-randonnee {background: url('http://mappingforyou.eu/icons/randonnee.png') center center no-repeat;} 
 
-.icon-tente {background: url('../icons/hostel_0star.png') center center no-repeat;} 
+.icon-tente {background: url('http://mappingforyou.eu/icons/hostel_0star.png') center center no-repeat;} 
 
-.icon-velo {background: url('../icons/velo.png') center center no-repeat;} 
+.icon-velo {background: url('http://mappingforyou.eu/icons/velo.png') center center no-repeat;} 
 
-.icon-vignoble {background: url('../icons/vignoble.png') center center no-repeat;} 
+.icon-vignoble {background: url('http://mappingforyou.eu/icons/vignoble.png') center center no-repeat;} 
 
-.icon-monument {background: url('../icons/randonnee.png') center center no-repeat;} 
+.icon-monument {background: url('http://mappingforyou.eu/icons/randonnee.png') center center no-repeat;} 
 
-.icon-monument {background: url('../icons/monument.png') center center no-repeat;} 
+.icon-monument {background: url('http://mappingforyou.eu/icons/monument.png') center center no-repeat;} 
 
-.icon-cafe {background: url('../icons/cafe.png') center center no-repeat;} 
+.icon-cafe {background: url('http://mappingforyou.eu/icons/cafe.png') center center no-repeat;} 
 
-.icon-montagne {background: url('../icons/montagne.png') center center no-repeat;} 
+.icon-montagne {background: url('http://mappingforyou.eu/icons/montagne.png') center center no-repeat;} 
 
-.icon-bus {background: url('../icons/busstop.png') center center no-repeat;} 
+.icon-bus {background: url('http://mappingforyou.eu/icons/busstop.png') center center no-repeat;} 
 
-.icon-loisirs {background: url('../icons/beachvolleyball.png') center center no-repeat;} 
+.icon-loisirs {background: url('http://mappingforyou.eu/icons/beachvolleyball.png') center center no-repeat;} 
 
-.icon-provinces {background: url('../icons/historical_museum.png') center center no-repeat;} 
+.icon-provinces {background: url('http://mappingforyou.eu/icons/historical_museum.png') center center no-repeat;} 
 
-.icon-emergency {background: url('../icons/emergencyphone.png') center center no-repeat;} 
+.icon-emergency {background: url('http://mappingforyou.eu/icons/emergencyphone.png') center center no-repeat;} 
 
-.icon-mountains {background: url('../icons/mountains.png') center center no-repeat;} 
+.icon-mountains {background: url('http://mappingforyou.eu/icons/mountains.png') center center no-repeat;} 
 
-.icon-road {background: url('../icons/road.png') center center no-repeat;} 
+.icon-road {background: url('http://mappingforyou.eu/icons/road.png') center center no-repeat;} 
 
   
 
@@ -230,7 +230,7 @@ text-align: center;
 
         .leaflet-draw-toolbar .leaflet-draw-draw-shapefile { 
 
-background-image: url('../icons/draw-shapefile.png') !important; 
+background-image: url('http://mappingforyou.eu/icons/draw-shapefile.png') !important; 
 
 background-size: 60px 120px; 
 

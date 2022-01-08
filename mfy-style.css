@@ -1,0 +1,383 @@
+ 
+
+#bufferdiv{ 
+
+  position:fixed; 
+
+  width:50%; 
+
+  bottom:20px; 
+
+  left:2%; 
+
+} 
+
+#bufferTv{ 
+
+  position:fixed; 
+
+  top:12px; 
+
+  left:50px; 
+
+  background-color:#fff; 
+
+  padding:5px; 
+
+  border-radius:3px; 
+
+  border:1px solid #333; 
+
+} 
+
+ 
+
+        #export { 
+
+  z-index: 1000; 
+
+  position: fixed; 
+
+  bottom:0 
+
+  background: yellow; 
+
+  color: black; 
+
+  padding: 0; 
+
+  margin: 0; 
+
+  border-radius: 0px; 
+
+  font-size: 16px; 
+
+  text-decoration: none; 
+
+} 
+
+ 
+
+ 
+
+ .jaune { 
+
+  z-index: 1000; 
+
+  position: absolute; 
+
+  top: 10px; 
+
+  left: 60px; 
+
+  margin: 0; 
+
+  padding: 0; 
+
+  background: yellow; 
+
+  color: black; 
+
+  padding: 0px; 
+
+  border-radius: 0px; 
+
+  font-size: 16px; 
+
+  text-decoration: none; 
+
+ } 
+
+  
+
+ 
+
+        body { 
+
+            padding: 0; 
+
+            margin: 0; 
+
+        } 
+
+  
+
+        html, body, #map { 
+
+            height: 100%; 
+
+            font: 10pt "Helvetica Neue", Arial, Helvetica, sans-serif; 
+
+Z-index: 1; 
+
+        } 
+
+  
+
+.input { 
+
+0 
+
+  margin-top:0px; 
+
+0 
+
+} 
+
+ 
+
+  
+
+       .lorem { 
+
+            font-style: italic; 
+
+            color: #AAA; 
+
+        } 
+
+     
+
+ 
+
+ 
+
+.leaflet-control-container .leaflet-routing-container-hide { 
+
+    display: none; 
+
+} 
+
+  
+
+          
+
+        .icon { 
+
+display: inline-block; 
+
+margin: 2px; 
+
+height: 16px; 
+
+width: 16px; 
+
+background-color: #ccc; 
+
+} 
+
+  
+
+/* ICONS */ 
+
+.icon-restaurant {background: url('../icons/restaurant2.png') center center no-repeat;} 
+
+.icon-specialites {background: url('../icons/cheese2.png') center center no-repeat;} 
+
+.icon-vins {background: url('../icons/vins.png') center center no-repeat;} 
+
+.icon-supermarche {background: url('../icons/supermarche.png') center center no-repeat;} 
+
+.icon-randonnee {background: url('../icons/randonnee.png') center center no-repeat;} 
+
+.icon-tente {background: url('../icons/hostel_0star.png') center center no-repeat;} 
+
+.icon-velo {background: url('../icons/velo.png') center center no-repeat;} 
+
+.icon-vignoble {background: url('../icons/vignoble.png') center center no-repeat;} 
+
+.icon-monument {background: url('../icons/randonnee.png') center center no-repeat;} 
+
+.icon-monument {background: url('../icons/monument.png') center center no-repeat;} 
+
+.icon-cafe {background: url('../icons/cafe.png') center center no-repeat;} 
+
+.icon-montagne {background: url('../icons/montagne.png') center center no-repeat;} 
+
+.icon-bus {background: url('../icons/busstop.png') center center no-repeat;} 
+
+.icon-loisirs {background: url('../icons/beachvolleyball.png') center center no-repeat;} 
+
+.icon-provinces {background: url('../icons/historical_museum.png') center center no-repeat;} 
+
+.icon-emergency {background: url('../icons/emergencyphone.png') center center no-repeat;} 
+
+.icon-mountains {background: url('../icons/mountains.png') center center no-repeat;} 
+
+.icon-road {background: url('../icons/road.png') center center no-repeat;} 
+
+  
+
+/* MARKERS */ 
+
+.leaflet-marker-icon { 
+
+padding: 2px; 
+
+text-align: center; 
+
+} 
+
+.marker-bar {background: url('images/markers/bar.png') center center no-repeat;} 
+
+.marker-fuel {background: url('images/markers/fuel.png') center center no-repeat;} 
+
+.marker-parking {background: url('images/markers/parking.png') center center no-repeat;} 
+
+.marker-drinking_water {background: url('images/markers/drinking_water.png') center center no-repeat;} 
+
+         
+
+        .leaflet-draw-toolbar .leaflet-draw-draw-shapefile { 
+
+background-image: url('../icons/draw-shapefile.png') !important; 
+
+background-size: 60px 120px; 
+
+} 
+
+  
+
+#leaflet-draw-draw-shapefile-btn { 
+
+height:26px; 
+
+width:26px; 
+
+} 
+
+  
+
+#leaflet-draw-shapefile-selector { 
+
+display:none; 
+
+} 
+
+         
+
+    .floatTL{ 
+
+position:absolute; 
+
+z-index: 3; 
+
+    bottom:3px; 
+
+    right:70px; 
+
+     
+
+      font-family: sans-serif; 
+
+    background-color: rgba(0, 000, 000, 0.4); 
+
+  
+
+  color: darkred; 
+
+  -webkit-text-stroke-width: 2px; 
+
+-webkit-text-stroke-color: #fff; 
+
+      
+
+            } 
+
+ 
+
+               .floatTL2{ 
+
+position:absolute; 
+
+z-index: 4; 
+
+    top:30px; 
+
+    left:50px; 
+
+            } 
+
+ 
+
+ 
+
+             
+
+             
+
+/* unvisited link */ 
+
+a:link {  color: chocolate;} 
+
+  
+
+/* visited link */ 
+
+a:visited {  color: chocolate;} 
+
+  
+
+/* mouse over link */ 
+
+a:hover {  color: chocolate;} 
+
+  
+
+/* selected link */ 
+
+a:active {  color: chocolate;} 
+
+  
+
+             
+
+                 .container-3{ 
+
+    width: 80%; 
+
+    float: center; 
+
+    height: 80%; 
+
+    background-color: #ad4343; 
+
+    position: absolute; 
+
+      opacity: .7;  
+
+     z-index: 3; 
+
+top: 10%; 
+
+    left: 10%; 
+
+} 
+
+  
+
+.container-3 .center{ 
+
+    width: 70%; 
+
+float: center; 
+
+    height: 70%; 
+
+    background-color: #ccc; 
+
+    margin: auto; 
+
+    position: absolute; 
+
+     z-index: 3; 
+
+      top: 10%; 
+
+    left: 10%; 
+
+} 
+
+  
+
+  

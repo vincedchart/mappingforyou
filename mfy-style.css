@@ -270,7 +270,7 @@ z-index: 3;
 
       font-family: sans-serif; 
 
-    background-color: rgba(0, 000, 000, 0.4); 
+    background-color: rgba(0, 000, 000, 0.0); 
 
   
 
@@ -308,25 +308,25 @@ z-index: 4;
 
 /* unvisited link */ 
 
-a:link {  color: chocolate;} 
+a:link {  color: black;} 
 
   
 
 /* visited link */ 
 
-a:visited {  color: chocolate;} 
+a:visited {  color: black;} 
 
   
 
 /* mouse over link */ 
 
-a:hover {  color: chocolate;} 
+a:hover {  color: black;} 
 
   
 
 /* selected link */ 
 
-a:active {  color: chocolate;} 
+a:active {  color: black;} 
 
   
 

@@ -79,7 +79,13 @@ var overLayers = [
 				icon: '<i class="icon icon-restaurant"></i>',
 				layer: {
 					type: "tileLayer.wms",
-					args: ["http://mappingforyou.eu/geoserver/wms", {
+					args: ["http://mappingforyou.eu/geoserver/wmslayer: L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lines/{z}/{x}/{y}{r}.{ext}', { 
+		subdomains: 'abcd',
+
+
+    maxZoom:20, 
+	ext: 'png'
+", {
 							layers: 'icelandfaroe.poi.barrest',
 							format: 'image/png',
 							transparent: true,
@@ -160,10 +166,12 @@ name: "Leiðir/vegur (roads)",
 icon: '<i class="icon icon-road"></i>', 
 
 layer: L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lines/{z}/{x}/{y}{r}.{ext}', { 
+		subdomains: 'abcd',
+
 
     maxZoom:20, 
+	ext: 'png'
 
-  
 
 }) 
 

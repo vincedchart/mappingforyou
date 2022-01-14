@@ -1,4 +1,4 @@
-// Essai de groupement non encore rÃ©ussi 
+// Essai de groupement non encore réussi 
 
  
 
@@ -24,13 +24,13 @@
 
 // panel layers 
 
-// base layers fonctionne sur la mÃªme architecture, mais je n'en veux pas donc cachÃ© 
+// base layers fonctionne sur la même architecture, mais je n'en veux pas donc caché 
 
 var baseLayers = [ 
 
 // { 
 
-// name: "Carte paysagÃ¨re", 
+// name: "Carte paysagère", 
 
 // layer: vdlibraries 
 
@@ -49,7 +49,7 @@ var overLayers = [
 		layers: [
 		
 						{
-		name: "Vista aÃ©rea (aerial view)",
+		name: "Vista aérea (aerial view)",
 	layer: L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
 
 		})
@@ -159,9 +159,9 @@ icon: '<i class="icon icon-road"></i>',
 
 layer: L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lines/{z}/{x}/{y}{r}.{ext}', { 
 
+			subdomains: 'abcd',
     maxZoom:20, 
-
-  
+	ext: 'png'
 
 }) 
 
@@ -171,7 +171,7 @@ layer: L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lines/{z}/{x
 
 { 
 
-name: "LÃ­neas de bicicleta (cycling)", 
+name: "Líneas de bicicleta (cycling)", 
 
 icon: '<i class="icon icon-velo"></i>', 
 
@@ -210,7 +210,7 @@ layer: L.tileLayer('https://tile.waymarkedtrails.org/hiking/{z}/{x}/{y}.png', {
 
 { 
 
-name: "EsquÃ­ (skiing)", 
+name: "Esquí (skiing)", 
 
 icon: '<i class="icon icon-mountains"></i>', 
 
@@ -230,7 +230,7 @@ layer: L.tileLayer('https://tiles.opensnowmap.org/pistes/{z}/{x}/{y}.png', {
 	
 										{
 				active: false,
-				name: "LÃ­nea de contorno (contour lines)",
+				name: "Línea de contorno (contour lines)",
 				icon: '<i class="icon icon-mountains"></i>',
 				layer: {
 					type: "tileLayer.wms",

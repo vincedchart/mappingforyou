@@ -41,15 +41,13 @@ var map = L.map('map', {
 
   center: [lat, lng],  
 
-crs: crs,
-
     maxBounds: bounds, 
 
 //   crs: L.CRS.EPSG4326, 
 
     minZoom: minZoom, 
 
-    maxZoom: maxZoom, 
+    maxZoom:maxZoom, 
 
     urlView: true, 
 
@@ -103,6 +101,9 @@ if (!map.options.urlView || !map.urlView.viewLoaded()) {
   contents += '<a href="http://mappingforyou.eu/france">🇫🇷 France   </a>'; 
 
   contents += '<a href="http://mappingforyou.eu/atlasfrancilien">🇫🇷 Paris - Atlas francilien   </a>'; 
+
+        contents += '<a href="http://mappingforyou.eu/ellada"🇬🇷 Ellada </a>'; 
+
 
         contents += '<a href="http://mappingforyou.eu/ukir/?zoom=8&lat=53.439&lng=-6.891">🇮🇪 Ireland   </a>'; 
 

@@ -175,10 +175,6 @@ ctlMousePosition = L.control.mousePosition().addTo(map);
 
     
 
-// echelle 
-
-L.control.scale({metric: true, imperial: false}).addTo(map); 
-
  
 
 

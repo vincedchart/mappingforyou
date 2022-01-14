@@ -1,4 +1,4 @@
-// Essai de groupement non encore rÃ©ussi 
+// Essai de groupement non encore réussi 
 
  
 
@@ -24,13 +24,13 @@
 
 // panel layers 
 
-// base layers fonctionne sur la mÃªme architecture, mais je n'en veux pas donc cachÃ© 
+// base layers fonctionne sur la même architecture, mais je n'en veux pas donc caché 
 
 var baseLayers = [ 
 
 // { 
 
-// name: "Carte paysagÃ¨re", 
+// name: "Carte paysagère", 
 
 // layer: vdlibraries 
 
@@ -49,7 +49,7 @@ var overLayers = [
 		layers: [
 		
 						{
-		name: "Aerial view (amharc Ã³n aer)",
+		name: "Aerial view (amharc ón aer)",
 	layer: L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
 
 		})
@@ -57,7 +57,7 @@ var overLayers = [
 		
 			{
 				active: false,
-				name: "Accommodation (cÃ³irÃ­ocht)",
+				name: "Accommodation (cóiríocht)",
 				icon: '<i class="icon icon-tente"></i>',
 				layer: {
 					type: "tileLayer.wms",
@@ -73,7 +73,7 @@ var overLayers = [
 							},
 					{
 				active: false,
-				name: "Eating out (athchÃ³iriÃº)",
+				name: "Eating out (athchóiriú)",
 				icon: '<i class="icon icon-restaurant"></i>',
 				layer: {
 					type: "tileLayer.wms",
@@ -89,7 +89,7 @@ var overLayers = [
 							},
 					{
 				active: false,
-				name: "Stores	(siopaÃ­)",
+				name: "Stores	(siopaí)",
 				icon: '<i class="icon icon-supermarche"></i>',
 				layer: {
 					type: "tileLayer.wms",
@@ -106,7 +106,7 @@ var overLayers = [
 			
 								{
 				active: false,
-				name: "Services/emerg. (seirbhÃ­sÃ­/Ã©igeand.",
+				name: "Services/emerg. (seirbhísí/éigeand.",
 				icon: '<i class="icon icon-emergency"></i>',
 				layer: {
 					type: "tileLayer.wms",
@@ -123,7 +123,7 @@ var overLayers = [
 							
 								{
 				active: false,
-				name: "Going out (rudaÃ­ le dÃ©anamh)",
+				name: "Going out (rudaí le déanamh)",
 				icon: '<i class="icon icon-loisirs"></i>',
 				layer: {
 					type: "tileLayer.wms",
@@ -161,7 +161,7 @@ var overLayers = [
 			
 													{
 				active: false,
-				name: "Flickr photos (pictiÃºirÃ­)",
+				name: "Flickr photos (pictiúirí)",
 				icon: '<i class="icon icon-monument"></i>',
 				layer: flickr,
 							},
@@ -171,15 +171,17 @@ var overLayers = [
 
 { 
 
-name: "Roads (bÃ³ithre)", 
+name: "Roads (bóithre)", 
 
 icon: '<i class="icon icon-road"></i>', 
 
 layer: L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lines/{z}/{x}/{y}{r}.{ext}', { 
 
-    maxZoom:20, 
+		subdomains: 'abcd',
 
-  
+
+    maxZoom:20, 
+	ext: 'png'
 
 }) 
 
@@ -189,7 +191,7 @@ layer: L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lines/{z}/{x
 
 { 
 
-name: "Cycling (lÃ¡naÃ­ rothar)", 
+name: "Cycling (lánaí rothar)", 
 
 icon: '<i class="icon icon-velo"></i>', 
 
@@ -228,7 +230,7 @@ layer: L.tileLayer('https://tile.waymarkedtrails.org/hiking/{z}/{x}/{y}.png', {
 
 { 
 
-name: "Skiing (sciÃ¡la)", 
+name: "Skiing (sciála)", 
 
 icon: '<i class="icon icon-mountains"></i>', 
 
@@ -248,7 +250,7 @@ layer: L.tileLayer('https://tiles.opensnowmap.org/pistes/{z}/{x}/{y}.png', {
 	
 										{
 				active: false,
-				name: "Contour lines (lÃ­ne chomhrianach))",
+				name: "Contour lines (líne chomhrianach))",
 				icon: '<i class="icon icon-mountains"></i>',
 				layer: {
 					type: "tileLayer.wms",
@@ -269,7 +271,7 @@ layer: L.tileLayer('https://tiles.opensnowmap.org/pistes/{z}/{x}/{y}.png', {
 
 active: false, 
 
-name: "Drawn items (mÃ­reanna tarraingthe)", 
+name: "Drawn items (míreanna tarraingthe)", 
 
 icon: '<i class="icon icon-monument"></i>', 
 

@@ -2,7 +2,7 @@
 
  
 
-var photoLayer = L.photo.cluster().on('click', function (evt) {	 
+var photoLayer = L.photo.cluster({ chunkedLoading: true }).on('click', function (evt) {	 
 
 var photo = evt.layer.photo, 
 

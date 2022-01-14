@@ -89,8 +89,12 @@ photoLayer.add(photos).addTo(map);
 
  
 
- 
+ 	
+// echelle 
 
+L.control.scale({metric: true, imperial: false}).addTo(map); 
+
+ 
   
 
 // localisation sur carte 
@@ -123,7 +127,7 @@ gps.addTo(map);
 
  
 
-// compass â€“ boussole 
+// compass – boussole 
 
 var comp = new L.Control.Compass({autoActive: true, showDigit:true, position: 'topleft'}); 
 
@@ -163,7 +167,7 @@ printer.printMap('CurrentSize', 'MyManualPrint')
 
  
 
-// avoir coordonnÃ©es gps 
+// avoir coordonnées gps 
 
 var ctlMousePosition; 
 
@@ -213,9 +217,9 @@ L.control.scale({metric: true, imperial: false}).addTo(map);
         map.addControl(osmGeocoder); 
 
  
-//scale
 
-    L.edgeScaleBar().addTo(map);
+ 
+
  
 
 // wikipedia 

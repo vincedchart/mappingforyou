@@ -221,7 +221,7 @@ var start_at_zoom = 10;
 
 function onEachFeature(feature, layer) { 
 
-    // pour afficher seulement une ou deux ou plus, donnÃ©es dans l'infobulle 
+    // pour afficher seulement une ou deux ou plus, données dans l'infobulle 
 
     if (feature.properties && feature.properties.appelation) { 
 

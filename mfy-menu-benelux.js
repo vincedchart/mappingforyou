@@ -158,7 +158,7 @@ var overLayers = [
                         },				
                         
                         											{
-				active: true,
+				active: false,
 				name: "Foto Flickr (photos)",
 				icon: '<i class="icon icon-monument"></i>',
 				layer: flickr,

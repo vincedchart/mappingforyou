@@ -1,4 +1,4 @@
-// Essai de groupement non encore rÃ©ussi 
+// Essai de groupement non encore réussi 
 
  
 
@@ -24,13 +24,13 @@
 
 // panel layers 
 
-// base layers fonctionne sur la mÃªme architecture, mais je n'en veux pas donc cachÃ© 
+// base layers fonctionne sur la même architecture, mais je n'en veux pas donc caché 
 
 var baseLayers = [ 
 
 // { 
 
-// name: "Carte paysagÃ¨re", 
+// name: "Carte paysagère", 
 
 // layer: vdlibraries 
 
@@ -50,7 +50,7 @@ layers: [
 
 { 
 
-name: "Vue aÃ©rienne (aerial view)", 
+name: "Vue aérienne (aerial view)", 
 
 layer: L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', { 
 
@@ -341,7 +341,7 @@ transparent: true,
 
 active: false, 
 
-name: "App.sptÃ© rÃ©g.(cers,ot.prod.)", 
+name: "App.spté rég.(cers,ot.prod.)", 
 
 icon: '<i class="icon icon-specialites"></i>', 
 
@@ -441,9 +441,11 @@ icon: '<i class="icon icon-road"></i>',
 
 layer: L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lines/{z}/{x}/{y}{r}.{ext}', { 
 
-  subdomains: 'abcd',
-  
+		subdomains: 'abcd',
+
+
     maxZoom:20, 
+	ext: 'png'
 
   
 
@@ -455,7 +457,7 @@ layer: L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lines/{z}/{x
 
 { 
 
-name: "Voies vÃ©lo (cycling)", 
+name: "Voies vélo (cycling)", 
 
 icon: '<i class="icon icon-velo"></i>', 
 
@@ -475,7 +477,7 @@ layer: L.tileLayer('https://tile.waymarkedtrails.org/cycling/{z}/{x}/{y}.png', {
 
 { 
 
-name: "RandonnÃ©e (hiking)", 
+name: "Randonnée (hiking)", 
 
 icon: '<i class="icon icon-randonnee"></i>', 
 

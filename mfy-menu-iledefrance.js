@@ -127,17 +127,17 @@ transparent: true,
 
 }, 
 
-// { 
+{ 
 
-// active: false, 
+active: false, 
 
-// name: "Restauration (test wfs)", 
+name: "Test active hebe", 
 
-// icon: '<i class="icon icon-restaurant"></i>', 
+icon: '<i class="icon icon-restaurant"></i>', 
 
-// layer: featureLayer2, 
+layer: hebergement, 
 
-// }, 
+}, 
 
 { 
 

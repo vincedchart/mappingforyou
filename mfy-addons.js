@@ -220,48 +220,29 @@ ctlMousePosition = L.control.mousePosition().addTo(map);
 
 // wikipedia 
 
-// var start_at_zoom_wiki = 10; 
+var start_at_zoom_wiki = 10; 
 
-// function onMoveEnd(evt) { 
-// if (map.getZoom() > start_at_zoom_wiki) { 
+function onMoveEnd(evt) { 
+if (map.getZoom() > start_at_zoom_wiki) { 
 
-// var template = '<h2>{label}</h2><p><img src="{thumbnail}" width="150"><br>{abstract}</p><p><a href="{link}" target="_blank">Wikipedia...</a></p>'; 
+var template = '<h2>{label}</h2><p><img src="{thumbnail}" width="150"><br>{abstract}</p><p><a href="{link}" target="_blank">Wikipedia...</a></p>'; 
 
-// L.wikipedia({ 
-// query: { 
-// fields: ['label', 'lat', 'lng', 'abstract', 'link', 'thumbnail'], 
-// bounds: map.getBounds() 
-// }, 
-// marker: { 
-// icon: L.icon({ // Icons from http://www.icondrawer.com/social-icons.php 
-//    iconUrl: 'http://mappingforyou.eu/icons/wikipedia_16.png', 
-//    iconRetinaUrl: 'http://mappingforyou.eu/icons/wikipedia_32.png', 
-//    iconSize: [16, 16] 
-// }) 
-// } 
-// }).addTo(map).on('click', function(evt) {  
-//  evt.layer.bindPopup(L.Util.template(template, evt.layer.data), customOptions); 
-// }); 
-// } 
-// }; 
+var wiki = L.wikipedia({ 
+query: { 
+fields: ['label', 'lat', 'lng', 'abstract', 'link', 'thumbnail'], 
+bounds: map.getBounds() 
+}, 
+marker: { 
+icon: L.icon({ // Icons from http://www.icondrawer.com/social-icons.php 
+   iconUrl: 'http://mappingforyou.eu/icons/wikipedia_16.png', 
+    iconRetinaUrl: 'http://mappingforyou.eu/icons/wikipedia_32.png', 
+    iconSize: [16, 16] 
+}) 
+ } 
+ }).addTo(map).on('click', function(evt) {  
+  evt.layer.bindPopup(L.Util.template(template, evt.layer.data), customOptions); 
+ }); 
+ } 
+ }; 
 
-// map.on('moveend', onMoveEnd);
-
-var template = '<h2>{label}</h2><p><img src="{thumbnail}" width="150"><br>{abstract}</p><p><a href="{link}" target="_blank">Wikipedia...</a></p>';
-
-L.wikipedia({
-  query: {
-    fields: ['label', 'lat', 'lng', 'abstract', 'link', 'thumbnail'],
-    bounds: map.getBounds()
-  },
-  marker: {
-    icon: L.icon({ // Icons from http://www.icondrawer.com/social-icons.php 
-      iconUrl: 'http://mappingforyou.eu/icons/wikipedia_16.png',
-      iconRetinaUrl: 'http://mappingforyou.eu/icons/wikipedia_32.png',
-      iconSize: [16, 16]
-    })
-  },
-  minZoom: 10
-}).addTo(map).on('click', function (evt) {
-  evt.layer.bindPopup(L.Util.template(template, evt.layer.data), customOptions);
-});
+ map.on('moveend', onMoveEnd);

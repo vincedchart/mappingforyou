@@ -243,8 +243,7 @@ icon: L.icon({ // Icons from http://www.icondrawer.com/social-icons.php
   evt.layer.bindPopup(L.Util.template(template, evt.layer.data), customOptions); 
 }); 
 } 
-} 
+}; 
 
 map.on('moveend', onMoveEnd);
 
-};

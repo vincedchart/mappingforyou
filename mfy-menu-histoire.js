@@ -28,19 +28,6 @@
 
 // base layers fonctionne sur la même architecture, mais je n'en veux pas donc caché 
 
-var baseLayers = [ 
-
-// { 
-
-// name: "Carte paysagère", 
-
-// layer: vdlibraries 
-
-// }, 
-
-]; 
-
-  
 
 
 
@@ -446,7 +433,20 @@ var baseLayers = [
 			
 								
 			
-								{
+			
+
+
+		]
+	},
+	
+];
+
+var baseLayers = [
+	{
+		group: " ",
+		layers: [
+
+  					{
 				active: false,
 				name: "Unesco",
 				icon: '<i class="icon icon-monument"></i>',
@@ -464,33 +464,12 @@ var baseLayers = [
 			},
 					
 	
-	
-										{
-				active: false,
-				name: "Courbes de niveau (contour lines)",
-				icon: '<i class="icon icon-mountains"></i>',
-				layer: {
-					type: "tileLayer.wms",
-					args: ["https://ows.terrestris.de/osm/service?", {
-							layers: 'SRTM30-Contour',
-							format: 'image/png',
-							transparent: true,
-							//minZoom: 13
-						}
-					]
-				}
-				
-			},
-
-
+			
+			
 		]
 	},
 	
 ];
-
-
-
-  
 
 // panel
 

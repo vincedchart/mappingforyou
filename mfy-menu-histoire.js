@@ -45,22 +45,11 @@ var baseLayers = [
 
 
 
-var overLayers = [
+var baseLayers = [
 	{
 		group: " ",
 		layers: [
-		{
-
-		name: "Vue aérienne (aerial view)",
-
-	layer: L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
-
-
-
-		})
-
-			},
-
+		
 		
 
 	
@@ -505,7 +494,7 @@ var overLayers = [
 
 // panel
 
-var panelLayers = new L.Control.PanelLayers(baseLayers, overLayers, { 
+var panelLayers = new L.Control.PanelLayers(baseLayers, { 
 
 compact: true, 
 

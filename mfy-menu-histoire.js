@@ -441,7 +441,7 @@ var baseLayers = [
 	
 ];
 
-var baseLayers = [
+var overLayers = [
 	{
 		group: " ",
 		layers: [
@@ -473,7 +473,7 @@ var baseLayers = [
 
 // panel
 
-var panelLayers = new L.Control.PanelLayers(baseLayers, { 
+var panelLayers = new L.Control.PanelLayers(baseLayers,overLayers, { 
 
 compact: true, 
 

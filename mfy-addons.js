@@ -249,7 +249,7 @@ ctlMousePosition = L.control.mousePosition().addTo(map);
 
 var template = '<h2>{label}</h2><p><img src="{thumbnail}" width="150"><br>{abstract}</p><p><a href="{link}" target="_blank">Wikipedia...</a></p>';
 
-var wiki = L.wikipedia({
+L.wikipedia({
   query: {
     fields: ['label', 'lat', 'lng', 'abstract', 'link', 'thumbnail'],
     bounds: map.getBounds()

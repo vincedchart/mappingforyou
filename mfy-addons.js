@@ -222,7 +222,7 @@ ctlMousePosition = L.control.mousePosition().addTo(map);
 
 var start_at_zoom_wiki = 10; 
 
-function onMoveEnd(evt) { 
+var wikistart = function onMoveEnd(evt) { 
 if (map.getZoom() > start_at_zoom_wiki) { 
 
 var template = '<h2>{label}</h2><p><img src="{thumbnail}" width="150"><br>{abstract}</p><p><a href="{link}" target="_blank">Wikipedia...</a></p>'; 
@@ -246,3 +246,5 @@ icon: L.icon({ // Icons from http://www.icondrawer.com/social-icons.php
 } 
 
 map.on('moveend', onMoveEnd);
+
+};

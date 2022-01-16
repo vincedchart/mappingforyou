@@ -321,6 +321,19 @@ layer: featureLayer,
  layer: flickr, 
 
  }, 
+	
+{ 
+
+active: false, 
+
+name: "Wikipedia", 
+
+icon: '<i class="icon icon-restaurant"></i>', 
+
+layer: wikistart, 
+
+}, 
+	
 
 { 
 

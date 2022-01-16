@@ -51,7 +51,7 @@ var overLayers = [
 		layers: [
 		{
 
-		name: "Luftaufnahme (aerial view)",
+		name: "Vue aérienne (aerial view)",
 
 	layer: L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
 
@@ -63,274 +63,422 @@ var overLayers = [
 
 		
 
-			{
+	
 
+												{
 				active: false,
-
-				name: "Unterkunft (accommodation)",
-
-				icon: '<i class="icon icon-tente"></i>',
-
+				name: "1994",
+				icon: '<i class="icon icon-monument"></i>',
 				layer: {
-
 					type: "tileLayer.wms",
-
 					args: ["http://mappingforyou.eu/geoserver/wms", {
-
-							layers: 'de.poi.hebergement',
-
+							layers: 'monde.histoire.1994',
 							format: 'image/png',
-
 							transparent: true,
-
-							maxZoom: 20
-
 							//minZoom: 13
-
 						}
-
 					]
-
 				}
-
-							},
-
-					{
-
-				active: false,
-
-				name: "Wiederherstellung (eating out)",
-
-				icon: '<i class="icon icon-restaurant"></i>',
-
-				layer: {
-
-					type: "tileLayer.wms",
-
-					args: ["http://mappingforyou.eu/geoserver/wms", {
-
-							layers: 'de.poi.barrest',
-
-							format: 'image/png',
-
-							transparent: true,
-
-							maxZoom: 20
-
-							//minZoom: 13
-
-						}
-
-					]
-
-				}
-
-							},
-
-					{
-
-				active: false,
-
-				name: "Geschäfte (stores)",
-
-				icon: '<i class="icon icon-supermarche"></i>',
-
-				layer: {
-
-					type: "tileLayer.wms",
-
-					args: ["http://mappingforyou.eu/geoserver/wms", {
-
-							layers: 'de.poi.stores',
-
-							format: 'image/png',
-
-							transparent: true,
-
-							maxZoom: 20
-
-							//minZoom: 13
-
-						}
-
-					]
-
-				}
-
-						},
-
-			
-
-								{
-
-				active: false,
-
-				name: "Dienstl./Notfälle (services/emerg.)",
-
-				icon: '<i class="icon icon-emergency"></i>',
-
-				layer: {
-
-					type: "tileLayer.wms",
-
-					args: ["http://mappingforyou.eu/geoserver/wms", {
-
-							layers: 'de.poi.services',
-
-							format: 'image/png',
-
-							transparent: true,
-
-							maxZoom: 20
-
-							//minZoom: 13
-
-						}
-
-					]
-
-				}
-
-							},
-
-							
-
-								{
-
-				active: false,
-
-				name: "Aktivitäten (going out)",
-
-				icon: '<i class="icon icon-loisirs"></i>',
-
-				layer: {
-
-					type: "tileLayer.wms",
-
-					args: ["http://mappingforyou.eu/geoserver/wms", {
-
-							layers: 'de.poi.loisirs',
-
-							format: 'image/png',
-
-							transparent: true,
-
-							maxZoom: 20
-
-							//minZoom: 13
-
-						}
-
-					]
-
-				}
-
-
-
-			},
-
-
-
 				
-
+			},
+			
 															{
 				active: false,
-				name: "Flickr Foto (photos)",
+				name: "1945",
 				icon: '<i class="icon icon-monument"></i>',
-				layer: flickr,
-							},
-						
-
+				layer: {
+					type: "tileLayer.wms",
+					args: ["http://mappingforyou.eu/geoserver/wms", {
+							layers: 'monde.histoire.1945',
+							format: 'image/png',
+							transparent: true,
+							//minZoom: 13
+						}
+					]
+				}
+				
+			},
 			
-
+															{
+				active: false,
+				name: "1938",
+				icon: '<i class="icon icon-monument"></i>',
+				layer: {
+					type: "tileLayer.wms",
+					args: ["http://mappingforyou.eu/geoserver/wms", {
+							layers: 'monde.histoire.1938',
+							format: 'image/png',
+							transparent: true,
+							//minZoom: 13
+						}
+					]
+				}
+				
+			},
+			
+															{
+				active: false,
+				name: "1920",
+				icon: '<i class="icon icon-monument"></i>',
+				layer: {
+					type: "tileLayer.wms",
+					args: ["http://mappingforyou.eu/geoserver/wms", {
+							layers: 'monde.histoire.1920',
+							format: 'image/png',
+							transparent: true,
+							//minZoom: 13
+						}
+					]
+				}
+				
+			},
+															{
+				active: false,
+				name: "1914",
+				icon: '<i class="icon icon-monument"></i>',
+				layer: {
+					type: "tileLayer.wms",
+					args: ["http://mappingforyou.eu/geoserver/wms", {
+							layers: 'monde.histoire.1914',
+							format: 'image/png',
+							transparent: true,
+							//minZoom: 13
+						}
+					]
+				}
+				
+			},
+			
+															{
+				active: false,
+				name: "1880",
+				icon: '<i class="icon icon-monument"></i>',
+				layer: {
+					type: "tileLayer.wms",
+					args: ["http://mappingforyou.eu/geoserver/wms", {
+							layers: 'monde.histoire.1880',
+							format: 'image/png',
+							transparent: true,
+							//minZoom: 13
+						}
+					]
+				}
+				
+			},
+			
+															{
+				active: false,
+				name: "1815",
+				icon: '<i class="icon icon-monument"></i>',
+				layer: {
+					type: "tileLayer.wms",
+					args: ["http://mappingforyou.eu/geoserver/wms", {
+							layers: 'monde.histoire.1815',
+							format: 'image/png',
+							transparent: true,
+							//minZoom: 13
+						}
+					]
+				}
+				
+			},
+			
+															{
+				active: false,
+				name: "1783",
+				icon: '<i class="icon icon-monument"></i>',
+				layer: {
+					type: "tileLayer.wms",
+					args: ["http://mappingforyou.eu/geoserver/wms", {
+							layers: 'monde.histoire.1783',
+							format: 'image/png',
+							transparent: true,
+							//minZoom: 13
+						}
+					]
+				}
+				
+			},
+			
+															{
+				active: false,
+				name: "1715",
+				icon: '<i class="icon icon-monument"></i>',
+				layer: {
+					type: "tileLayer.wms",
+					args: ["http://mappingforyou.eu/geoserver/wms", {
+							layers: 'monde.histoire.1715',
+							format: 'image/png',
+							transparent: true,
+							//minZoom: 13
+						}
+					]
+				}
+				
+			},
+			
+															{
+				active: true,
+				name: "1650",
+				icon: '<i class="icon icon-monument"></i>',
+				layer: {
+					type: "tileLayer.wms",
+					args: ["http://mappingforyou.eu/geoserver/wms", {
+							layers: 'monde.histoire.1650',
+							format: 'image/png',
+							transparent: true,
+							//minZoom: 13
+						}
+					]
+				}
+				
+			},
+			
+																{
+				active: false,
+				name: "1530",
+				icon: '<i class="icon icon-monument"></i>',
+				layer: {
+					type: "tileLayer.wms",
+					args: ["http://mappingforyou.eu/geoserver/wms", {
+							layers: 'monde.histoire.1530',
+							format: 'image/png',
+							transparent: true,
+							//minZoom: 13
+						}
+					]
+				}
+				
+			},
+			
+										{
+				active: false,
+				name: "1492",
+				icon: '<i class="icon icon-monument"></i>',
+				layer: {
+					type: "tileLayer.wms",
+					args: ["http://mappingforyou.eu/geoserver/wms", {
+							layers: 'monde.histoire.1492',
+							format: 'image/png',
+							transparent: true,
+							//minZoom: 13
+						}
+					]
+				}
+				
+			},
+			
+																{
+				active: false,
+				name: "1279",
+				icon: '<i class="icon icon-monument"></i>',
+				layer: {
+					type: "tileLayer.wms",
+					args: ["http://mappingforyou.eu/geoserver/wms", {
+							layers: 'monde.histoire.1279',
+							format: 'image/png',
+							transparent: true,
+							//minZoom: 13
+						}
+					]
+				}
+				
+			},
+			
+																{
+				active: false,
+				name: "1000",
+				icon: '<i class="icon icon-monument"></i>',
+				layer: {
+					type: "tileLayer.wms",
+					args: ["http://mappingforyou.eu/geoserver/wms", {
+							layers: 'monde.histoire.1000',
+							format: 'image/png',
+							transparent: true,
+							//minZoom: 13
+						}
+					]
+				}
+				
+			},
+			
+																{
+				active: false,
+				name: "800",
+				icon: '<i class="icon icon-monument"></i>',
+				layer: {
+					type: "tileLayer.wms",
+					args: ["http://mappingforyou.eu/geoserver/wms", {
+							layers: 'monde.histoire.0800',
+							format: 'image/png',
+							transparent: true,
+							//minZoom: 13
+						}
+					]
+				}
+				
+			},
+			
+																		{
+				active: false,
+				name: "600",
+				icon: '<i class="icon icon-monument"></i>',
+				layer: {
+					type: "tileLayer.wms",
+					args: ["http://mappingforyou.eu/geoserver/wms", {
+							layers: 'monde.histoire.0600',
+							format: 'image/png',
+							transparent: true,
+							//minZoom: 13
+						}
+					]
+				}
+				
+			},
+			
+																		{
+				active: false,
+				name: "400",
+				icon: '<i class="icon icon-monument"></i>',
+				layer: {
+					type: "tileLayer.wms",
+					args: ["http://mappingforyou.eu/geoserver/wms", {
+							layers: 'monde.histoire.0400',
+							format: 'image/png',
+							transparent: true,
+							//minZoom: 13
+						}
+					]
+				}
+				
+			},
+			
+																		{
+				active: false,
+				name: "-1",
+				icon: '<i class="icon icon-monument"></i>',
+				layer: {
+					type: "tileLayer.wms",
+					args: ["http://mappingforyou.eu/geoserver/wms", {
+							layers: 'monde.histoire.-0001',
+							format: 'image/png',
+							transparent: true,
+							//minZoom: 13
+						}
+					]
+				}
+				
+			},
+			
+																		{
+				active: false,
+				name: "-200",
+				icon: '<i class="icon icon-monument"></i>',
+				layer: {
+					type: "tileLayer.wms",
+					args: ["http://mappingforyou.eu/geoserver/wms", {
+							layers: 'monde.histoire.-0200',
+							format: 'image/png',
+							transparent: true,
+							//minZoom: 13
+						}
+					]
+				}
+				
+			},
+			
+																		{
+				active: false,
+				name: "-323",
+				icon: '<i class="icon icon-monument"></i>',
+				layer: {
+					type: "tileLayer.wms",
+					args: ["http://mappingforyou.eu/geoserver/wms", {
+							layers: 'monde.histoire.-0323',
+							format: 'image/png',
+							transparent: true,
+							//minZoom: 13
+						}
+					]
+				}
+				
+			},
+			
+																		{
+				active: false,
+				name: "-500",
+				icon: '<i class="icon icon-monument"></i>',
+				layer: {
+					type: "tileLayer.wms",
+					args: ["http://mappingforyou.eu/geoserver/wms", {
+							layers: 'monde.histoire.-0500',
+							format: 'image/png',
+							transparent: true,
+							//minZoom: 13
+						}
+					]
+				}
+				
+			},
+			
+																		{
+				active: false,
+				name: "-1000",
+				icon: '<i class="icon icon-monument"></i>',
+				layer: {
+					type: "tileLayer.wms",
+					args: ["http://mappingforyou.eu/geoserver/wms", {
+							layers: 'monde.histoire.-1000',
+							format: 'image/png',
+							transparent: true,
+							//minZoom: 13
+						}
+					]
+				}
+				
+			},
+			
+																		{
+				active: false,
+				name: "-2000",
+				icon: '<i class="icon icon-monument"></i>',
+				layer: {
+					type: "tileLayer.wms",
+					args: ["http://mappingforyou.eu/geoserver/wms", {
+							layers: 'monde.histoire.-2000',
+							format: 'image/png',
+							transparent: true,
+							//minZoom: 13
+						}
+					]
+				}
+				
+			},
+			
+								
+			
+								{
+				active: false,
+				name: "Unesco",
+				icon: '<i class="icon icon-monument"></i>',
+				layer: {
+					type: "tileLayer.wms",
+					args: ["http://mappingforyou.eu/geoserver/wms", {
+							layers: 'monde.patrim.unesco',
+							format: 'image/png',
+							transparent: true,
+							//minZoom: 13
+						}
+					]
+				}
+				
+			},
+					
 	
-
-			
-	
-
-{ 
-
-name: "Strassen (roads)", 
-
-icon: '<i class="icon icon-road"></i>', 
-
-layer: L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lines/{z}/{x}/{y}{r}.{ext}', { 
-		subdomains: 'abcd',
-
-
-    maxZoom:20, 
-	ext: 'png'
-
-  
-
-}) 
-
-}, 
-
-			
-
-{ 
-
-name: "Fahrradwege (cycling)", 
-
-icon: '<i class="icon icon-velo"></i>', 
-
-layer: L.tileLayer('https://tile.waymarkedtrails.org/cycling/{z}/{x}/{y}.png', { 
-
-    maxZoom:20, 
-
-  
-
-}) 
-
-}, 
-
-		
-		
-		
- 
-
-{ 
-
-name: "Wandern (hiking)", 
-
-icon: '<i class="icon icon-randonnee"></i>', 
-
-layer: L.tileLayer('https://tile.waymarkedtrails.org/hiking/{z}/{x}/{y}.png', { 
-
-    maxZoom:20, 
-
-  
-
-}) 
-
-}, 
-
- 
-
-{ 
-
-name: "Ski (skiing)", 
-
-icon: '<i class="icon icon-mountains"></i>', 
-
-layer: L.tileLayer('https://tiles.opensnowmap.org/pistes/{z}/{x}/{y}.png', { 
-
-    maxZoom:20, 
-
-  
-
-}) 
-
-}, 
-
- 
-  
-
 	
 										{
 				active: false,
-				name: "Konturlinie (contour lines)",
+				name: "Courbes de niveau (contour lines)",
 				icon: '<i class="icon icon-mountains"></i>',
 				layer: {
 					type: "tileLayer.wms",
@@ -344,36 +492,8 @@ layer: L.tileLayer('https://tiles.opensnowmap.org/pistes/{z}/{x}/{y}.png', {
 				}
 				
 			},
-	
-	
-	
-{ 
 
-active: false, 
 
-name: "Zeichnungen (drawn items)", 
-
-icon: '<i class="icon icon-monument"></i>', 
-
-layer: drawnItems, 
-
-}, 
-	
-	
-	
-
-			
-	//		{
-	//			active: true,
-	//			name: "River",
-	//			layer: (function() {
-	//				var l = L.geoJson();
-	//				$.getJSON('data/river.json', function(j) {
-	//					l.addData(j);
-	//				});
-	//				return l;
-	//			}())
-	//		},
 		]
 	},
 	

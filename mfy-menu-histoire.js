@@ -58,6 +58,24 @@ var baseLayers = [
 				
 			},
 			
+			
+												{
+				active: false,
+				name: "1960",
+				icon: '<i class="icon icon-monument"></i>',
+				layer: {
+					type: "tileLayer.wms",
+					args: ["http://mappingforyou.eu/geoserver/wms", {
+							layers: 'monde.histoire.1960',
+							format: 'image/png',
+							transparent: true,
+							//minZoom: 13
+						}
+					]
+				}
+				
+			},
+			
 															{
 				active: false,
 				name: "1945",
@@ -116,6 +134,24 @@ var baseLayers = [
 					type: "tileLayer.wms",
 					args: ["http://mappingforyou.eu/geoserver/wms", {
 							layers: 'monde.histoire.1914',
+							format: 'image/png',
+							transparent: true,
+							//minZoom: 13
+						}
+					]
+				}
+				
+			},
+			
+			
+												{
+				active: false,
+				name: "1900",
+				icon: '<i class="icon icon-monument"></i>',
+				layer: {
+					type: "tileLayer.wms",
+					args: ["http://mappingforyou.eu/geoserver/wms", {
+							layers: 'monde.histoire.1900',
 							format: 'image/png',
 							transparent: true,
 							//minZoom: 13
@@ -193,6 +229,24 @@ var baseLayers = [
 				
 			},
 			
+			
+												{
+				active: false,
+				name: "1700",
+				icon: '<i class="icon icon-monument"></i>',
+				layer: {
+					type: "tileLayer.wms",
+					args: ["http://mappingforyou.eu/geoserver/wms", {
+							layers: 'monde.histoire.1700',
+							format: 'image/png',
+							transparent: true,
+							//minZoom: 13
+						}
+					]
+				}
+				
+			},
+			
 															{
 				active: true,
 				name: "1650",
@@ -201,6 +255,24 @@ var baseLayers = [
 					type: "tileLayer.wms",
 					args: ["http://mappingforyou.eu/geoserver/wms", {
 							layers: 'monde.histoire.1650',
+							format: 'image/png',
+							transparent: true,
+							//minZoom: 13
+						}
+					]
+				}
+				
+			},
+			
+			
+												{
+				active: false,
+				name: "1600",
+				icon: '<i class="icon icon-monument"></i>',
+				layer: {
+					type: "tileLayer.wms",
+					args: ["http://mappingforyou.eu/geoserver/wms", {
+							layers: 'monde.histoire.1600',
 							format: 'image/png',
 							transparent: true,
 							//minZoom: 13
@@ -227,6 +299,24 @@ var baseLayers = [
 				
 			},
 			
+			
+												{
+				active: false,
+				name: "1500",
+				icon: '<i class="icon icon-monument"></i>',
+				layer: {
+					type: "tileLayer.wms",
+					args: ["http://mappingforyou.eu/geoserver/wms", {
+							layers: 'monde.histoire.1500',
+							format: 'image/png',
+							transparent: true,
+							//minZoom: 13
+						}
+					]
+				}
+				
+			},
+			
 										{
 				active: false,
 				name: "1492",
@@ -235,6 +325,42 @@ var baseLayers = [
 					type: "tileLayer.wms",
 					args: ["http://mappingforyou.eu/geoserver/wms", {
 							layers: 'monde.histoire.1492',
+							format: 'image/png',
+							transparent: true,
+							//minZoom: 13
+						}
+					]
+				}
+				
+			},
+			
+			
+												{
+				active: false,
+				name: "1400",
+				icon: '<i class="icon icon-monument"></i>',
+				layer: {
+					type: "tileLayer.wms",
+					args: ["http://mappingforyou.eu/geoserver/wms", {
+							layers: 'monde.histoire.1400',
+							format: 'image/png',
+							transparent: true,
+							//minZoom: 13
+						}
+					]
+				}
+				
+			},
+			
+			
+												{
+				active: false,
+				name: "1300",
+				icon: '<i class="icon icon-monument"></i>',
+				layer: {
+					type: "tileLayer.wms",
+					args: ["http://mappingforyou.eu/geoserver/wms", {
+							layers: 'monde.histoire.1300',
 							format: 'image/png',
 							transparent: true,
 							//minZoom: 13
@@ -261,9 +387,63 @@ var baseLayers = [
 				
 			},
 			
-																{
+			
+												{
+				active: false,
+				name: "1200",
+				icon: '<i class="icon icon-monument"></i>',
+				layer: {
+					type: "tileLayer.wms",
+					args: ["http://mappingforyou.eu/geoserver/wms", {
+							layers: 'monde.histoire.1200',
+							format: 'image/png',
+							transparent: true,
+							//minZoom: 13
+						}
+					]
+				}
+				
+			},
+			
+			
+												{
+				active: false,
+				name: "1100",
+				icon: '<i class="icon icon-monument"></i>',
+				layer: {
+					type: "tileLayer.wms",
+					args: ["http://mappingforyou.eu/geoserver/wms", {
+							layers: 'monde.histoire.1100',
+							format: 'image/png',
+							transparent: true,
+							//minZoom: 13
+						}
+					]
+				}
+				
+			},
+			
+			
+												{
 				active: false,
 				name: "1000",
+				icon: '<i class="icon icon-monument"></i>',
+				layer: {
+					type: "tileLayer.wms",
+					args: ["http://mappingforyou.eu/geoserver/wms", {
+							layers: 'monde.histoire.1000',
+							format: 'image/png',
+							transparent: true,
+							//minZoom: 13
+						}
+					]
+				}
+				
+			},
+			
+																{
+				active: false,
+				name: "900",
 				icon: '<i class="icon icon-monument"></i>',
 				layer: {
 					type: "tileLayer.wms",
@@ -286,6 +466,24 @@ var baseLayers = [
 					type: "tileLayer.wms",
 					args: ["http://mappingforyou.eu/geoserver/wms", {
 							layers: 'monde.histoire.0800',
+							format: 'image/png',
+							transparent: true,
+							//minZoom: 13
+						}
+					]
+				}
+				
+			},
+			
+			
+												{
+				active: false,
+				name: "0700",
+				icon: '<i class="icon icon-monument"></i>',
+				layer: {
+					type: "tileLayer.wms",
+					args: ["http://mappingforyou.eu/geoserver/wms", {
+							layers: 'monde.histoire.0700',
 							format: 'image/png',
 							transparent: true,
 							//minZoom: 13

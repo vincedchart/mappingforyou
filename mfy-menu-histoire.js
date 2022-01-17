@@ -475,11 +475,11 @@ var overLayers = [
 
 var panelLayers = new L.Control.PanelLayers(baseLayers,overLayers, { 
 
-compact: true, 
+compact: false, 
 
-collapsed: true, 
+collapsed: false, 
 
-collapsibleGroups: true 
+collapsibleGroups: false 
 
 }); 
 

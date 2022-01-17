@@ -595,7 +595,7 @@ compact: true,
 
 collapsed: true, 
 
-collapsibleGroups: true 
+collapsibleGroups: false 
 
 }); 
 

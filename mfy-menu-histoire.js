@@ -612,6 +612,22 @@ var baseLayers = [
 				
 			},
 			
+																					{
+				active: false,
+				name: "-100",
+				icon: '<i class="icon icon-monument"></i>',
+				layer: {
+					type: "tileLayer.wms",
+					args: ["http://mappingforyou.eu/geoserver/wms", {
+							layers: 'monde.histoire.-0100',
+							format: 'image/png',
+							transparent: true,
+							//minZoom: 13
+						}
+					]
+				}
+				
+			},
 																		{
 				active: false,
 				name: "-200",
@@ -628,6 +644,23 @@ var baseLayers = [
 				}
 				
 			},
+																					{
+				active: false,
+				name: "-300",
+				icon: '<i class="icon icon-monument"></i>',
+				layer: {
+					type: "tileLayer.wms",
+					args: ["http://mappingforyou.eu/geoserver/wms", {
+							layers: 'monde.histoire.-0300',
+							format: 'image/png',
+							transparent: true,
+							//minZoom: 13
+						}
+					]
+				}
+				
+			},
+			
 			
 																		{
 				active: false,
@@ -637,6 +670,23 @@ var baseLayers = [
 					type: "tileLayer.wms",
 					args: ["http://mappingforyou.eu/geoserver/wms", {
 							layers: 'monde.histoire.-0323',
+							format: 'image/png',
+							transparent: true,
+							//minZoom: 13
+						}
+					]
+				}
+				
+			},
+			
+																					{
+				active: false,
+				name: "-400",
+				icon: '<i class="icon icon-monument"></i>',
+				layer: {
+					type: "tileLayer.wms",
+					args: ["http://mappingforyou.eu/geoserver/wms", {
+							layers: 'monde.histoire.-0400',
 							format: 'image/png',
 							transparent: true,
 							//minZoom: 13
@@ -680,6 +730,23 @@ var baseLayers = [
 				
 			},
 			
+																					{
+				active: false,
+				name: "-1500",
+				icon: '<i class="icon icon-monument"></i>',
+				layer: {
+					type: "tileLayer.wms",
+					args: ["http://mappingforyou.eu/geoserver/wms", {
+							layers: 'monde.histoire.-1500',
+							format: 'image/png',
+							transparent: true,
+							//minZoom: 13
+						}
+					]
+				}
+				
+			},
+			
 																		{
 				active: false,
 				name: "-2000",
@@ -697,10 +764,107 @@ var baseLayers = [
 				
 			},
 			
-								
+																					{
+				active: false,
+				name: "-3000",
+				icon: '<i class="icon icon-monument"></i>',
+				layer: {
+					type: "tileLayer.wms",
+					args: ["http://mappingforyou.eu/geoserver/wms", {
+							layers: 'monde.histoire.-3000',
+							format: 'image/png',
+							transparent: true,
+							//minZoom: 13
+						}
+					]
+				}
+				
+			},
+			
+																						{
+				active: false,
+				name: "-4000",
+				icon: '<i class="icon icon-monument"></i>',
+				layer: {
+					type: "tileLayer.wms",
+					args: ["http://mappingforyou.eu/geoserver/wms", {
+							layers: 'monde.histoire.-4000',
+							format: 'image/png',
+							transparent: true,
+							//minZoom: 13
+						}
+					]
+				}
+				
+			},				
+			
+																					{
+				active: false,
+				name: "-5000",
+				icon: '<i class="icon icon-monument"></i>',
+				layer: {
+					type: "tileLayer.wms",
+					args: ["http://mappingforyou.eu/geoserver/wms", {
+							layers: 'monde.histoire.-5000',
+							format: 'image/png',
+							transparent: true,
+							//minZoom: 13
+						}
+					]
+				}
+				
+			},
 			
 			
-
+																					{
+				active: false,
+				name: "-8000",
+				icon: '<i class="icon icon-monument"></i>',
+				layer: {
+					type: "tileLayer.wms",
+					args: ["http://mappingforyou.eu/geoserver/wms", {
+							layers: 'monde.histoire.-8000',
+							format: 'image/png',
+							transparent: true,
+							//minZoom: 13
+						}
+					]
+				}
+				
+			},
+																		{
+				active: false,
+				name: "-10000",
+				icon: '<i class="icon icon-monument"></i>',
+				layer: {
+					type: "tileLayer.wms",
+					args: ["http://mappingforyou.eu/geoserver/wms", {
+							layers: 'monde.histoire.-10000',
+							format: 'image/png',
+							transparent: true,
+							//minZoom: 13
+						}
+					]
+				}
+				
+			},
+			
+																					{
+				active: false,
+				name: "-123000",
+				icon: '<i class="icon icon-monument"></i>',
+				layer: {
+					type: "tileLayer.wms",
+					args: ["http://mappingforyou.eu/geoserver/wms", {
+							layers: 'monde.histoire.-123000',
+							format: 'image/png',
+							transparent: true,
+							//minZoom: 13
+						}
+					]
+				}
+				
+			},
 
 		]
 	},

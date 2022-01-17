@@ -15,8 +15,19 @@
  //     var mon = L.layerGroup([featureLayer, monum]); 
 
  
+// mise sous reference
 
- 
+
+        var hebergement = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+       layers: 'france.poi.hebergement', 
+          maxZoom: 20, 
+          minZoom: 16,
+        format: 'image/png',
+                 transparent: true,               
+}); 
+
+
+
 
 // Categories 
 

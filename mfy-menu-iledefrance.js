@@ -342,6 +342,8 @@ name: "Wikipedia",
 icon: '<i class="icon icon-restaurant"></i>', 
 
 layer: wiki, 
+	
+	minZoom: 13
 
 }, 
 	

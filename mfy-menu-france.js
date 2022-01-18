@@ -131,11 +131,13 @@ transparent: true,
 
 active: false, 
 
-name: "Wikipedia (test)", 
+name: "Wikipedia", 
 
 icon: '<i class="icon icon-restaurant"></i>', 
 
 layer: wiki, 
+	     minZoom: 11
+
 
 }, 
 

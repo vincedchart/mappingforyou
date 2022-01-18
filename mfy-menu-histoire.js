@@ -813,9 +813,7 @@ layer: b123000,
 			
 								]
 				}
-						]
-	},
-	
+							
 ];
 
 var overLayers = [

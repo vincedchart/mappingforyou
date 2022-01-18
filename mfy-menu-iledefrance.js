@@ -341,7 +341,7 @@ name: "Wikipedia",
 
 icon: '<i class="icon icon-restaurant"></i>', 
 
-layer: wikistart, 
+layer: wiki, 
 
 }, 
 	

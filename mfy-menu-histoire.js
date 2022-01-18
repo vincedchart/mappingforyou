@@ -20,242 +20,242 @@
 // mise sous reference
 
 
-        var 1994 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+        var a1994 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
        layers: 'monde.histoire.1994', 
         format: 'image/png',
                  transparent: true,               
 }); 
 
-        var 1960 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+        var a1960 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
        layers: 'monde.histoire.1960', 
         format: 'image/png',
                  transparent: true,               
 }); 
 
-        var 1945 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+        var a1945 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
        layers: 'monde.histoire.1945', 
         format: 'image/png',
                  transparent: true,               
 }); 
 
-         var 1938 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+         var a1938 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
        layers: 'monde.histoire.1938', 
         format: 'image/png',
                  transparent: true,               
 }); 
 
-        var 1920 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+        var a1920 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
        layers: 'monde.histoire.1920', 
         format: 'image/png',
                  transparent: true,               
 }); 
 
-        var 1914 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+        var a1914 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
        layers: 'monde.histoire.1914', 
         format: 'image/png',
                  transparent: true,               
 }); 
-        var 1900 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+        var a1900 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
        layers: 'monde.histoire.1900', 
         format: 'image/png',
                  transparent: true,               
 }); 
-        var 1880 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+        var a1880 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
        layers: 'monde.histoire.1880',
         format: 'image/png',
                  transparent: true,               
 }); 
-        var 1815 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+        var a1815 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
        layers: 'monde.histoire.1815',
         format: 'image/png',
                  transparent: true,               
 }); 
-        var 1783 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+        var a1783 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
        layers: 'monde.histoire.1783',
         format: 'image/png',
                  transparent: true,               
 }); 
-        var 1715 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+        var a1715 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
        layers: 'monde.histoire.1715',
         format: 'image/png',
                  transparent: true,               
 }); 
-        var 1650 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+        var a1650 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
        layers: 'monde.histoire.1650',
         format: 'image/png',
                  transparent: true,               
 }); 
-        var 1600 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+        var a1600 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
        layers: 'monde.histoire.1600',
         format: 'image/png',
                  transparent: true,               
 }); 
-        var 1530 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+        var a1530 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
        layers: 'monde.histoire.1530',
         format: 'image/png',
                  transparent: true,               
 }); 
-        var 1500 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+        var a1500 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
        layers: 'monde.histoire.1500',
         format: 'image/png',
                  transparent: true,               
 }); 
-        var 1492 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+        var a1492 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
        layers: 'monde.histoire.1492',
         format: 'image/png',
                  transparent: true,               
 }); 
-        var 1400 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+        var a1400 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
        layers: 'monde.histoire.1400',
         format: 'image/png',
                  transparent: true,               
 }); 
-        var 1300 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+        var a1300 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
        layers: 'monde.histoire.1300',
         format: 'image/png',
                  transparent: true,               
 }); 
-        var 1279 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+        var a1279 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
        layers: 'monde.histoire.1279', 
         format: 'image/png',
                  transparent: true,               
 }); 
-        var 1200 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+        var a1200 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
        layers: 'monde.histoire.1200', 
         format: 'image/png',
                  transparent: true,               
 }); 
-        var 1100 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+        var a1100 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
        layers: 'monde.histoire.1100', 
         format: 'image/png',
                  transparent: true,               
 }); 
-        var 1000 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+        var a1000 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
        layers: 'monde.histoire.1000', 
         format: 'image/png',
                  transparent: true,               
 }); 
-        var 900 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+        var a900 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
        layers: 'monde.histoire.900', 
         format: 'image/png',
                  transparent: true,               
 }); 
-        var 800 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+        var a800 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
        layers: 'monde.histoire.800', 
         format: 'image/png',
                  transparent: true,               
 }); 
-        var 700 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+        var a700 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
        layers: 'monde.histoire.700', 
         format: 'image/png',
                  transparent: true,               
 }); 
-        var 600 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+        var a600 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
        layers: 'monde.histoire.600', 
         format: 'image/png',
                  transparent: true,               
 }); 
-        var 500 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+        var a500 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
        layers: 'monde.histoire.500', 
         format: 'image/png',
                  transparent: true,               
 }); 
-        var 400 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+        var a400 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
        layers: 'monde.histoire.400', 
         format: 'image/png',
                  transparent: true,               
 }); 
-        var 300 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+        var a300 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
        layers: 'monde.histoire.300', 
         format: 'image/png',
                  transparent: true,               
 }); 
-        var 200 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+        var a200 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
        layers: 'monde.histoire.200', 
         format: 'image/png',
                  transparent: true,               
 }); 
-        var 100 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+        var a100 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
        layers: 'monde.histoire.100', 
         format: 'image/png',
                  transparent: true,               
 }); 
-        var -1 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+        var b1 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
        layers: 'monde.histoire.-1', 
         format: 'image/png',
                  transparent: true,               
 }); 
-        var -100 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+        var b100 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
        layers: 'monde.histoire.-100', 
         format: 'image/png',
                  transparent: true,               
 }); 
-        var -200 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+        var b200 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
        layers: 'monde.histoire.-200', 
         format: 'image/png',
                  transparent: true,               
 }); 
-        var -300 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+        var b300 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
        layers: 'monde.histoire.-300', 
         format: 'image/png',
                  transparent: true,               
 }); 
-        var -323 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+        var b323 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
        layers: 'monde.histoire.-323', 
         format: 'image/png',
                  transparent: true,               
 }); 
-        var -400 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+        var b400 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
        layers: 'monde.histoire.-400', 
         format: 'image/png',
                  transparent: true,               
 }); 
-        var -500 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+        var b500 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
        layers: 'monde.histoire.-500', 
         format: 'image/png',
                  transparent: true,               
 }); 
-        var -1000 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+        var b1000 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
        layers: 'monde.histoire.-1000', 
         format: 'image/png',
                  transparent: true,               
 }); 
-        var -1500 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+        var b1500 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
        layers: 'monde.histoire.-1500', 
         format: 'image/png',
                  transparent: true,               
 }); 
-        var -2000 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+        var b2000 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
        layers: 'monde.histoire.-2000', 
         format: 'image/png',
                  transparent: true,               
 }); 
-        var -3000 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+        var b3000 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
        layers: 'monde.histoire.-3000', 
         format: 'image/png',
                  transparent: true,               
 }); 
-        var -4000 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+        var b4000 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
        layers: 'monde.histoire.-4000', 
         format: 'image/png',
                  transparent: true,               
 }); 
-        var -5000 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+        var b5000 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
        layers: 'monde.histoire.-5000', 
         format: 'image/png',
                  transparent: true,               
 }); 
-        var -8000 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+        var b8000 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
        layers: 'monde.histoire.-8000', 
         format: 'image/png',
                  transparent: true,               
 }); 
-        var -10000 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+        var b10000 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
        layers: 'monde.histoire.-10000', 
         format: 'image/png',
                  transparent: true,               
 }); 
-        var -123000 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+        var b123000 = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
        layers: 'monde.histoire.-123000', 
         format: 'image/png',
                  transparent: true,               
@@ -287,7 +287,7 @@ name: "1994",
 
 icon: '<i class="icon icon-monument"></i>', 
 
-layer: 1994, 
+layer: a1994, 
 
 }, 
 						{ 
@@ -298,7 +298,7 @@ name: "1960",
 
 icon: '<i class="icon icon-monument"></i>', 
 
-layer: 1960, 
+layer: a1960, 
 
 }, 
 						{ 
@@ -309,7 +309,7 @@ name: "1945",
 
 icon: '<i class="icon icon-monument"></i>', 
 
-layer: 1945, 
+layer: a1945, 
 
 }, 
 						{ 
@@ -320,7 +320,7 @@ name: "1938",
 
 icon: '<i class="icon icon-monument"></i>', 
 
-layer: 1938, 
+layer: a1938, 
 
 }, 
 						{ 
@@ -331,7 +331,7 @@ name: "1920",
 
 icon: '<i class="icon icon-monument"></i>', 
 
-layer: 1920, 
+layer: a1920, 
 
 }, 
 						{ 
@@ -342,7 +342,7 @@ name: "1914",
 
 icon: '<i class="icon icon-monument"></i>', 
 
-layer: 1914, 
+layer: a1914, 
 
 }, 
 						{ 
@@ -353,7 +353,7 @@ name: "1900",
 
 icon: '<i class="icon icon-monument"></i>', 
 
-layer: 1900, 
+layer: a1900, 
 
 }, 
 						{ 
@@ -364,7 +364,7 @@ name: "1880",
 
 icon: '<i class="icon icon-monument"></i>', 
 
-layer: 1880, 
+layer: a1880, 
 
 }, 
 						{ 
@@ -375,7 +375,7 @@ name: "1815",
 
 icon: '<i class="icon icon-monument"></i>', 
 
-layer: 1815, 
+layer: a1815, 
 
 }, 
 						{ 
@@ -386,7 +386,7 @@ name: "1783",
 
 icon: '<i class="icon icon-monument"></i>', 
 
-layer: 1783, 
+layer: a1783, 
 
 }, 
 						{ 
@@ -397,7 +397,7 @@ name: "1715",
 
 icon: '<i class="icon icon-monument"></i>', 
 
-layer: 1715, 
+layer: a1715, 
 
 }, 
 						{ 
@@ -408,7 +408,7 @@ name: "1700",
 
 icon: '<i class="icon icon-monument"></i>', 
 
-layer: 1700, 
+layer: a1700, 
 
 }, 
 						{ 
@@ -419,7 +419,7 @@ name: "1650",
 
 icon: '<i class="icon icon-monument"></i>', 
 
-layer: 1650, 
+layer: a1650, 
 
 }, 
 						{ 
@@ -430,7 +430,7 @@ name: "1600",
 
 icon: '<i class="icon icon-monument"></i>', 
 
-layer: 1600, 
+layer: a1600, 
 
 }, 
 						{ 
@@ -441,7 +441,7 @@ name: "1530",
 
 icon: '<i class="icon icon-monument"></i>', 
 
-layer: 1530, 
+layer: a1530, 
 
 }, 
 						{ 
@@ -452,7 +452,7 @@ name: "1500",
 
 icon: '<i class="icon icon-monument"></i>', 
 
-layer: 1500, 
+layer: a1500, 
 
 }, 
 						{ 
@@ -463,7 +463,7 @@ name: "1492",
 
 icon: '<i class="icon icon-monument"></i>', 
 
-layer: 1492, 
+layer: a1492, 
 
 }, 
 						{ 
@@ -474,7 +474,7 @@ name: "1400",
 
 icon: '<i class="icon icon-monument"></i>', 
 
-layer: 1400, 
+layer: a1400, 
 
 }, 
 						{ 
@@ -485,7 +485,7 @@ name: "1300",
 
 icon: '<i class="icon icon-monument"></i>', 
 
-layer: 1300, 
+layer: a1300, 
 
 }, 
 						{ 
@@ -496,7 +496,7 @@ name: "1279",
 
 icon: '<i class="icon icon-monument"></i>', 
 
-layer: 1279, 
+layer: a1279, 
 
 }, 
 						{ 
@@ -507,7 +507,7 @@ name: "1200",
 
 icon: '<i class="icon icon-monument"></i>', 
 
-layer: 1200, 
+layer: a1200, 
 
 }, 
 						{ 
@@ -518,7 +518,7 @@ name: "1100",
 
 icon: '<i class="icon icon-monument"></i>', 
 
-layer: 1100, 
+layer: a1100, 
 
 }, 
 						{ 
@@ -529,7 +529,7 @@ name: "1000",
 
 icon: '<i class="icon icon-monument"></i>', 
 
-layer: 1000, 
+layer: a1000, 
 
 }, 
 						{ 
@@ -540,7 +540,7 @@ name: "900",
 
 icon: '<i class="icon icon-monument"></i>', 
 
-layer: 900, 
+layer: a900, 
 
 }, 
 						{ 
@@ -551,7 +551,7 @@ name: "800",
 
 icon: '<i class="icon icon-monument"></i>', 
 
-layer: 800, 
+layer: a800, 
 
 }, 
 			
@@ -563,7 +563,7 @@ name: "700",
 
 icon: '<i class="icon icon-monument"></i>', 
 
-layer: 700, 
+layer: a700, 
 
 }, 
 									{ 
@@ -574,7 +574,7 @@ name: "600",
 
 icon: '<i class="icon icon-monument"></i>', 
 
-layer: 600, 
+layer: a600, 
 
 }, 
 									{ 
@@ -585,7 +585,7 @@ name: "500",
 
 icon: '<i class="icon icon-monument"></i>', 
 
-layer: 500, 
+layer: a500, 
 
 }, 
 									{ 
@@ -596,7 +596,7 @@ name: "400",
 
 icon: '<i class="icon icon-monument"></i>', 
 
-layer: 400, 
+layer: a400, 
 
 }, 
 									{ 
@@ -607,7 +607,7 @@ name: "300",
 
 icon: '<i class="icon icon-monument"></i>', 
 
-layer: 300, 
+layer: a300, 
 
 }, 
 									{ 
@@ -618,7 +618,7 @@ name: "200",
 
 icon: '<i class="icon icon-monument"></i>', 
 
-layer: 200, 
+layer: a200, 
 
 }, 
 									{ 
@@ -629,7 +629,7 @@ name: "100",
 
 icon: '<i class="icon icon-monument"></i>', 
 
-layer: 100, 
+layer: a100, 
 
 }, 
 			
@@ -641,7 +641,7 @@ name: "-1",
 
 icon: '<i class="icon icon-monument"></i>', 
 
-layer: -1, 
+layer: b1, 
 
 }, 	
 			
@@ -653,7 +653,7 @@ name: "-100",
 
 icon: '<i class="icon icon-monument"></i>', 
 
-layer: -100, 
+layer: b100, 
 
 }, 		
 			{ 
@@ -664,7 +664,7 @@ name: "-200",
 
 icon: '<i class="icon icon-monument"></i>', 
 
-layer: -200, 
+layer: b200, 
 
 }, 		
 			{ 
@@ -675,7 +675,7 @@ name: "-300",
 
 icon: '<i class="icon icon-monument"></i>', 
 
-layer: -300, 
+layer: b300, 
 
 }, 			
 			{ 
@@ -686,7 +686,7 @@ name: "-323",
 
 icon: '<i class="icon icon-monument"></i>', 
 
-layer: -323, 
+layer: b323, 
 
 }, 			
 			{ 
@@ -697,7 +697,7 @@ name: "-400",
 
 icon: '<i class="icon icon-monument"></i>', 
 
-layer: -400, 
+layer: b400, 
 
 }, 		
 			{ 
@@ -708,7 +708,7 @@ name: "-500",
 
 icon: '<i class="icon icon-monument"></i>', 
 
-layer: -500, 
+layer: b500, 
 
 }, 			
 			{ 
@@ -719,7 +719,7 @@ name: "-1000",
 
 icon: '<i class="icon icon-monument"></i>', 
 
-layer: -1000, 
+layer: b1000, 
 
 }, 	
 			{ 
@@ -730,7 +730,7 @@ name: "-1500",
 
 icon: '<i class="icon icon-monument"></i>', 
 
-layer: -1500, 
+layer: b1500, 
 
 }, 
 									{ 
@@ -741,7 +741,7 @@ name: "-2000",
 
 icon: '<i class="icon icon-monument"></i>', 
 
-layer: -2000, 
+layer: b2000, 
 
 }, 
 							{ 
@@ -752,7 +752,7 @@ name: "-3000",
 
 icon: '<i class="icon icon-monument"></i>', 
 
-layer: -3000, 
+layer: b3000, 
 
 }, 
 									{ 
@@ -763,7 +763,7 @@ name: "-4000",
 
 icon: '<i class="icon icon-monument"></i>', 
 
-layer: -4000, 
+layer: b4000, 
 
 }, 
 									{ 
@@ -774,7 +774,7 @@ name: "-5000",
 
 icon: '<i class="icon icon-monument"></i>', 
 
-layer: -5000, 
+layer: b5000, 
 
 }, 
 									{ 
@@ -785,7 +785,7 @@ name: "-8000",
 
 icon: '<i class="icon icon-monument"></i>', 
 
-layer: -8000, 
+layer: b8000, 
 
 }, 
 									{ 
@@ -796,7 +796,7 @@ name: "-10000",
 
 icon: '<i class="icon icon-monument"></i>', 
 
-layer: -10000, 
+layer: b10000, 
 
 }, 
 									{ 
@@ -807,7 +807,7 @@ name: "-123000",
 
 icon: '<i class="icon icon-monument"></i>', 
 
-layer: -123000, 
+layer: b123000, 
 
 }, 
 			
@@ -875,54 +875,54 @@ map.addControl(panelLayers);
 
 	    var allMapLayers = {
 	      'base': mapbase,
-	    '1994': 1994,
-	  '1960': 1960,
- '1945': 1945,
-		     '1938': 1938,
-		     '1920': 1920,
-		     '1914': 1914,
-		     '1900': 1900,
-		     '1880': 1880,
-		     '1815': 1815,
-		     '1783': 1783,
-		     '1715': 1715,
-		     '1700': 1700,
-		     '1650': 1650,
-		     '1600': 1600,
-		     '1530': 1530,
-		     '1500': 1500,
-		     '1492': 1492,
-		     '1400': 1400,
-		     '1300': 1300,
-		     '1279': 1279,
-		     '1200': 1200,
-		     '1100': 1100,
-		     '1000': 1000,
-		     '900': 900,
-		     '800': 800,
-		     '700': 700,
-		     '600': 600,
-		     '500': 500,
-		     '400': 400,
-		     '300': 300,
-		     '200': 200,
-		     '100': 100,
-		     '-1': -1,
-		     '-100': -100,
-		     '-200': -200,
-		     '-300': -300,
-		     '-323': -323,
-		     '-400': -400,
-		     '-500': -500,
-		     '-1000': -1000,
-		     '-1500': -1500,
-		     '-2000': -2000,
-		     '-3000': -3000,
-		     '-4000': -4000,
-		     '-5000': -5000,
-		     '-8000': -8000,
-		     '-10000': -10000,
-		     '-123000': -123000,
+	    '1994': a1994,
+	  '1960': a1960,
+ '1945': a1945,
+		     '1938': a1938,
+		     '1920': a1920,
+		     '1914': a1914,
+		     '1900': a1900,
+		     '1880': a1880,
+		     '1815': a1815,
+		     '1783': a1783,
+		     '1715': a1715,
+		     '1700': a1700,
+		     '1650': a1650,
+		     '1600': a1600,
+		     '1530': a1530,
+		     '1500': a1500,
+		     '1492': a1492,
+		     '1400': a1400,
+		     '1300': a1300,
+		     '1279': a1279,
+		     '1200': a1200,
+		     '1100': a1100,
+		     '1000': a1000,
+		     '900': a900,
+		     '800': a800,
+		     '700': a700,
+		     '600': a600,
+		     '500': a500,
+		     '400': a400,
+		     '300': a300,
+		     '200': a200,
+		     '100': a100,
+		     '-1': b1,
+		     '-100': b100,
+		     '-200': b200,
+		     '-300': b300,
+		     '-323': b323,
+		     '-400': b400,
+		     '-500': b500,
+		     '-1000': b1000,
+		     '-1500': b1500,
+		     '-2000': b2000,
+		     '-3000': b3000,
+		     '-4000': b4000,
+		     '-5000': b5000,
+		     '-8000': b8000,
+		     '-10000': b10000,
+		     '-123000': b123000,
 		    
 	  }
 	    ;

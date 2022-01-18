@@ -343,7 +343,7 @@ icon: '<i class="icon icon-restaurant"></i>',
 
 layer: wiki, 
 	
-	minZoom: 13
+	minZoom: 16
 
 }, 
 	

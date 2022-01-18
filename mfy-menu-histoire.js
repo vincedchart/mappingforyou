@@ -400,17 +400,7 @@ icon: '<i class="icon icon-monument"></i>',
 layer: a1715, 
 
 }, 
-						{ 
-
-active: false, 
-
-name: "1700", 
-
-icon: '<i class="icon icon-monument"></i>', 
-
-layer: a1700, 
-
-}, 
+		
 						{ 
 
 active: false, 
@@ -881,7 +871,6 @@ map.addControl(panelLayers);
 		     '1815': a1815,
 		     '1783': a1783,
 		     '1715': a1715,
-		     '1700': a1700,
 		     '1650': a1650,
 		     '1600': a1600,
 		     '1530': a1530,

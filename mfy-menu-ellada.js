@@ -59,7 +59,7 @@ var overLayers = [
 		
 			{
 				active: false,
-				name: "Gistingu/bústaður (κατάλυμα)",
+				name: "κατάλυμα (accommodation)",
 				icon: '<i class="icon icon-tente"></i>',
 				layer: {
 					type: "tileLayer.wms",

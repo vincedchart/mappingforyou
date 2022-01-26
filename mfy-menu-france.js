@@ -15,8 +15,94 @@
  //     var mon = L.layerGroup([featureLayer, monum]); 
 
  
+// mise sous reference
 
- 
+        var aerial = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}');
+
+        var hotels = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+       layers: 'france.poi.hebergement', 
+        format: 'image/png',
+                 transparent: true,               
+}); 
+
+        var restaurants = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+       layers: 'france.poi.barrest', 
+        format: 'image/png',
+                 transparent: true,               
+}); 
+
+
+        var stores = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+       layers: 'france.poi.stores', 
+        format: 'image/png',
+                 transparent: true,               
+}); 
+
+
+        var services = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+       layers: 'france.poi.services', 
+        format: 'image/png',
+                 transparent: true,               
+}); 
+
+
+        var leisure = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+       layers: 'france.poi.loisirs', 
+        format: 'image/png',
+                 transparent: true,               
+}); 
+
+
+        var monuments = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+       layers: 'france.patrim.mhareas', 
+        format: 'image/png',
+                 transparent: true,               
+}); 
+
+
+        var wines = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+       layers: 'france.patrim.aocigp_simpl500_alcools', 
+        format: 'image/png',
+                 transparent: true,               
+}); 
+
+        var specialities = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+       layers: 'france.patrim.aocigp_simpl500_specialites', 
+        format: 'image/png',
+                 transparent: true,               
+}); 
+
+        var historical = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+       layers: 'france.histoire.provinces', 
+        format: 'image/png',
+                 transparent: true,               
+}); 
+
+        var bus = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+       layers: 'france.roads.bus10m', 
+        format: 'image/png',
+                 transparent: true,               
+}); 
+
+
+        var roads = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lines/{z}/{x}/{y}{r}.{ext}', { 
+       subdomains: 'abcd', 
+        ext: 'png'           
+}); 
+
+        var cycling = L.tileLayer('https://tile.waymarkedtrails.org/cycling/{z}/{x}/{y}.png'); 
+
+        var hiking = L.tileLayer('https://tile.waymarkedtrails.org/hiking/{z}/{x}/{y}.png');
+
+        var skiing = L.tileLayer.wms('https://tiles.opensnowmap.org/pistes/{z}/{x}/{y}.png');
+
+        var contourlines = L.tileLayer.wms('https://ows.terrestris.de/osm/service?', { 
+       layers: 'SRTM30-contour', 
+        format: 'image/png',
+                 transparent: true,               
+}); 
+
+      
 
 // Categories 
 
@@ -52,13 +138,7 @@ layers: [
 
 name: "Vue aérienne (aerial view)", 
 
-layer: L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', { 
-
-    maxZoom:20, 
-
-  
-
-}) 
+layer: aerial 
 
 }, 
 
@@ -67,79 +147,27 @@ layer: L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_I
 
 active: false, 
 
-name: "Heberg. (accommodation)", 
+name: "Heberg. (lodging)", 
 
 icon: '<i class="icon icon-tente"></i>', 
 
-layer: { 
-
-type: "tileLayer.wms", 
-
-args: ["http://mappingforyou.eu/geoserver/wms", { 
-
-layers: 'france.poi.hebergement', 
-
-format: 'image/png', 
-
-transparent: true, 
-
-    maxZoom:20, 
-
-//minZoom: 13 
-
-} 
-
-] 
-
-} 
-
-}, 
+layer: hotels
+	
+},
 
 { 
 
 active: false, 
 
-name: "Restauration (eating out)", 
+name: "Restauration (catering)", 
 
 icon: '<i class="icon icon-restaurant"></i>', 
 
-layer: { 
-
-type: "tileLayer.wms", 
-
-args: ["http://mappingforyou.eu/geoserver/wms", { 
-
-layers: 'france.poi.barrest', 
-
-format: 'image/png', 
-
-transparent: true, 
-
-    maxZoom:20, 
-
-//minZoom: 13 
-
-} 
-
-] 
-
-} 
-
+layer: restaurants
+	
 }, 
 
- { 
 
-active: false, 
-
-name: "Wikipedia", 
-
-icon: '<i class="icon icon-restaurant"></i>', 
-
-layer: wiki, 
-	     minZoom: 11
-
-
-}, 
 
 { 
 
@@ -149,28 +177,7 @@ name: "Alimentation (food goods)",
 
 icon: '<i class="icon icon-supermarche"></i>', 
 
-layer: { 
-
-type: "tileLayer.wms", 
-
-args: ["http://mappingforyou.eu/geoserver/wms", { 
-
-layers: 'france.poi.stores', 
-
-format: 'image/png', 
-
-transparent: true, 
-
-    maxZoom:20, 
-
-//minZoom: 13 
-
-} 
-
-] 
-
-} 
-
+layer: stores
 }, 
 
   
@@ -183,28 +190,7 @@ name: "Services/urg. (serv./emerg.)",
 
 icon: '<i class="icon icon-emergency"></i>', 
 
-layer: { 
-
-type: "tileLayer.wms", 
-
-args: ["http://mappingforyou.eu/geoserver/wms", { 
-
-layers: 'france.poi.services', 
-
-format: 'image/png', 
-
-transparent: true, 
-
-    maxZoom:20, 
-
-//minZoom: 13 
-
-} 
-
-] 
-
-} 
-
+layer: services
 }, 
 
 { 
@@ -215,29 +201,7 @@ name: "Loisirs (going out)",
 
 icon: '<i class="icon icon-loisirs"></i>', 
 
-layer: { 
-
-type: "tileLayer.wms", 
-
-args: ["http://mappingforyou.eu/geoserver/wms", { 
-
-layers: 'france.poi.loisirs', 
-
-format: 'image/png', 
-
-transparent: true, 
-
-    maxZoom:20, 
-
-//minZoom: 13 
-
-} 
-
-] 
-
-} 
-
-  
+layer: leisure 
 
 }, 
 
@@ -251,28 +215,7 @@ name: "Mon.historiques(listed bldg)",
 
 icon: '<i class="icon icon-monument"></i>', 
 
-layer: { 
-
-type: "tileLayer.wms", 
-
-args: ["http://mappingforyou.eu/geoserver/wms", { 
-
-layers: 'france.patrim.mhareas', 
-
-format: 'image/png', 
-
-transparent: true, 
-
-    maxZoom:20, 
-
-//minZoom: 13 
-
-} 
-
-] 
-
-} 
-
+layer: monuments
 }, 
 
 // { 
@@ -317,25 +260,7 @@ name: "App.vins/spir.(cert,wine/liq.)",
 
 icon: '<i class="icon icon-vins"></i>', 
 
-layer: { 
-
-type: "tileLayer.wms", 
-
-args: ["http://mappingforyou.eu/geoserver/wms", { 
-
-layers: 'france.patrim.aocigp_simpl500_alcools', 
-
-format: 'image/png', 
-
-transparent: true, 
-
-//minZoom: 13 
-
-} 
-
-] 
-
-} 
+layer: wines
 
 }, 
 
@@ -347,26 +272,7 @@ name: "App.spté rég.(cers,ot.prod.)",
 
 icon: '<i class="icon icon-specialites"></i>', 
 
-layer: { 
-
-type: "tileLayer.wms", 
-
-args: ["http://mappingforyou.eu/geoserver/wms", { 
-
-layers: 'france.patrim.aocigp_simpl500_specialites', 
-
-format: 'image/png', 
-
-transparent: true, 
-
-//minZoom: 13 
-
-} 
-
-] 
-
-} 
-
+layer: specialities
 }, 
 
 { 
@@ -377,28 +283,23 @@ name: "Provinces hist. (hist. prov.)",
 
 icon: '<i class="icon icon-provinces"></i>', 
 
-layer: { 
-
-type: "tileLayer.wms", 
-
-args: ["http://mappingforyou.eu/geoserver/wms", { 
-
-layers: 'france.histoire.provinces', 
-
-format: 'image/png', 
-
-transparent: true, 
-
-//minZoom: 13 
-
-} 
-
-] 
-
-} 
-
+layer: historical
 }, 
 
+	 { 
+
+active: false, 
+
+name: "Wikipedia", 
+
+icon: '<i class="icon icon-restaurant"></i>', 
+
+layer: wiki, 
+	     minZoom: 11
+
+
+}, 
+	
 { 
 
 active: false, 
@@ -407,27 +308,7 @@ name: "Bus",
 
 icon: '<i class="icon icon-bus"></i>', 
 
-layer: { 
-
-type: "tileLayer.wms", 
-
-args: ["http://mappingforyou.eu/geoserver/wms", { 
-
-layers: 'france.roads.bus10m', 
-
-format: 'image/png', 
-
-transparent: true, 
-
-    maxZoom:20, 
-
-//minZoom: 13 
-
-} 
-
-] 
-
-} 
+layer: bus
 
 }, 
 
@@ -441,17 +322,7 @@ name: "Routes (roads)",
 
 icon: '<i class="icon icon-road"></i>', 
 
-layer: L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lines/{z}/{x}/{y}{r}.{ext}', { 
-
-		subdomains: 'abcd',
-
-
-    maxZoom:20, 
-	ext: 'png'
-
-  
-
-}) 
+layer: roads
 
 }, 
 
@@ -463,13 +334,7 @@ name: "Voies vélo (cycling)",
 
 icon: '<i class="icon icon-velo"></i>', 
 
-layer: L.tileLayer('https://tile.waymarkedtrails.org/cycling/{z}/{x}/{y}.png', { 
-
-    maxZoom:20, 
-
-  
-
-}) 
+layer: cycling
 
 }, 
 
@@ -483,13 +348,7 @@ name: "Randonnée (hiking)",
 
 icon: '<i class="icon icon-randonnee"></i>', 
 
-layer: L.tileLayer('https://tile.waymarkedtrails.org/hiking/{z}/{x}/{y}.png', { 
-
-    maxZoom:20, 
-
-  
-
-}) 
+layer: hiking
 
 }, 
 
@@ -501,13 +360,7 @@ name: "Ski (skiing)",
 
 icon: '<i class="icon icon-mountains"></i>', 
 
-layer: L.tileLayer('https://tiles.opensnowmap.org/pistes/{z}/{x}/{y}.png', { 
-
-    maxZoom:20, 
-
-  
-
-}) 
+layer: skiing
 
 }, 
 
@@ -523,27 +376,7 @@ name: "Courbes de niv.(cont. lines)",
 
 icon: '<i class="icon icon-mountains"></i>', 
 
-layer: { 
-
-type: "tileLayer.wms", 
-
-args: ["https://ows.terrestris.de/osm/service?", { 
-
-layers: 'SRTM30-Contour', 
-
-format: 'image/png', 
-
-transparent: true, 
-
-    maxZoom:20, 
-
-//minZoom: 13 
-
-} 
-
-] 
-
-} 
+layer: contourlines
 
 }, 
 
@@ -603,3 +436,33 @@ collapsibleGroups: false
 
   
 map.addControl(panelLayers);
+
+	    var allMapLayers = {
+	      'base': mapbase,
+	    'aerial': aerial,
+	  'hotels': hotels,
+ 'restaurants': restaurants,
+		     'stores': stores,
+		     'services': services,
+		     'loisirs': loisirs,
+		     '1900': a1900,
+		     '1880': a1880,
+		     '1815': a1815,
+		     '1783': a1783,
+		     '1715': a1715,
+		     '1650': a1650,
+		     '1600': a1600,
+		     '1530': a1530,
+		     '1500': a1500,
+		     '1492': a1492,
+		     '1400': a1400,
+		     '1300': a1300,
+		     '1279': a1279,
+		     '1200': a1200,
+		     '1100': a1100,
+	    
+	  }
+	    ;
+    var hash = new L.Hash(map, allMapLayers);
+ 
+

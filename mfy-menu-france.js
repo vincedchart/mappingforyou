@@ -97,7 +97,7 @@
         var skiing = L.tileLayer.wms('https://tiles.opensnowmap.org/pistes/{z}/{x}/{y}.png');
 
         var contourlines = L.tileLayer.wms('https://ows.terrestris.de/osm/service?', { 
-       layers: 'SRTM30-contour', 
+       layers: 'SRTM30-Contour', 
         format: 'image/png',
                  transparent: true,               
 }); 

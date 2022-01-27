@@ -215,7 +215,7 @@ ctlMousePosition = L.control.mousePosition().addTo(map);
 // minimap
 
 		//Plugin magic goes here! Note that you cannot use the same layer object again, as that will confuse the two map controls
-		var osm2 = new L.TileLayer(osmUrl, {minZoom: 0, maxZoom: 13});
+		var osm2 = new L.TileLayer(osmUrl, {minZoom: 5, maxZoom: 10});
 		var miniMap = new L.Control.MiniMap(osm2, { toggleDisplay: true }).addTo(map);
 
 

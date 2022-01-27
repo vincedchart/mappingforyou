@@ -15,6 +15,67 @@
  //     var mon = L.layerGroup([featureLayer, monum]); 
 
  
+ 
+// mise sous reference
+
+        var aerial = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}');
+
+        var hotels = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+       layers: 'it.poi.hebergement', 
+        format: 'image/png',
+                 transparent: true,               
+}); 
+
+        var restaurants = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+       layers: 'it.poi.barrest', 
+        format: 'image/png',
+                 transparent: true,               
+}); 
+
+
+        var stores = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+       layers: 'it.poi.stores', 
+        format: 'image/png',
+                 transparent: true,               
+}); 
+
+
+        var services = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+       layers: 'it.poi.services', 
+        format: 'image/png',
+                 transparent: true,               
+}); 
+
+
+        var leisure = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+       layers: 'it.poi.loisirs', 
+        format: 'image/png',
+                 transparent: true,               
+}); 
+
+
+        var monuments = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+       layers: 'it.patrim.catalogopatrim', 
+        format: 'image/png',
+                 transparent: true,               
+}); 
+
+   var roads = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lines/{z}/{x}/{y}{r}.{ext}', { 
+       subdomains: 'abcd', 
+        ext: 'png'           
+}); 
+
+        var cycling = L.tileLayer('https://tile.waymarkedtrails.org/cycling/{z}/{x}/{y}.png'); 
+
+        var hiking = L.tileLayer('https://tile.waymarkedtrails.org/hiking/{z}/{x}/{y}.png');
+
+        var skiing = L.tileLayer.wms('https://tiles.opensnowmap.org/pistes/{z}/{x}/{y}.png');
+
+        var contourlines = L.tileLayer.wms('https://ows.terrestris.de/osm/service?', { 
+       layers: 'SRTM30-Contour', 
+        format: 'image/png',
+                 transparent: true,               
+}); 
 
  
 
@@ -57,86 +118,35 @@ var overLayers = [
 		
 			{
 				active: false,
-				name: "Alloggio (accommodation)",
+				name: "Alloggio (lodging)",
 				icon: '<i class="icon icon-tente"></i>',
-				layer: {
-					type: "tileLayer.wms",
-					args: ["http://mappingforyou.eu/geoserver/wms", {
-							layers: 'it.poi.hebergement',
-							format: 'image/png',
-							maxZoom: 20,
-							transparent: true,
-							//minZoom: 13
-						}
-					]
-				}
+				layer: hotels
 							},
 					{
 				active: false,
-				name: "Restauro (eating out)",
+				name: "Restauro (catering)",
 				icon: '<i class="icon icon-restaurant"></i>',
-				layer: {
-					type: "tileLayer.wms",
-					args: ["http://mappingforyou.eu/geoserver/wms", {
-							layers: 'it.poi.barrest',
-							format: 'image/png',
-							transparent: true,
-							maxZoom: 20,
-							//minZoom: 13
-						}
-					]
-				}
+				layer: restaurants
 							},
 					{
 				active: false,
 				name: "Negozi (stores)",
 				icon: '<i class="icon icon-supermarche"></i>',
-				layer: {
-					type: "tileLayer.wms",
-					args: ["http://mappingforyou.eu/geoserver/wms", {
-							layers: 'it.poi.stores',
-							format: 'image/png',
-							maxZoom: 20,
-							transparent: true,
-							//minZoom: 13
-						}
-					]
-				}
+				layer: stores
 						},
 			
 								{
 				active: false,
 				name: "Servizi/emerg. (services/emerg.)",
 				icon: '<i class="icon icon-emergency"></i>',
-				layer: {
-					type: "tileLayer.wms",
-					args: ["http://mappingforyou.eu/geoserver/wms", {
-							layers: 'it.poi.services',
-							format: 'image/png',
-							transparent: true,
-							maxZoom: 20,
-							//minZoom: 13
-						}
-					]
-				}
+				layer: services
 							},
 							
 								{
 				active: false,
 				name: "Cose da fare (going out)",
 				icon: '<i class="icon icon-loisirs"></i>',
-				layer: {
-					type: "tileLayer.wms",
-					args: ["http://mappingforyou.eu/geoserver/wms", {
-							layers: 'it.poi.loisirs',
-							format: 'image/png',
-							transparent: true,
-							maxZoom: 20,
-							//minZoom: 13
-						}
-					]
-				}
-
+				layer: leisure
 			},
 
 
@@ -144,17 +154,7 @@ var overLayers = [
                                 active: false,
                                 name: "Catalogo patrim. (listed bldgs)",
                                 icon: '<i class="icon icon-monument"></i>',
-                                layer: {
-                                        type: "tileLayer.wms",
-                                        args: ["http://mappingforyou.eu/geoserver/wms", {
-                                                        layers: 'it.patrim.catalogopatrim',
-                                                        format: 'image/png',
-                                                        transparent: true,
-                                                        maxZoom: 20,
-                                                        //minZoom: 13
-                                                }
-                                        ]
-                                }
+                                layer: monuments
                                 
                         },
 
@@ -174,17 +174,7 @@ name: "Strade (roads)",
 
 icon: '<i class="icon icon-road"></i>', 
 
-layer: L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lines/{z}/{x}/{y}{r}.{ext}', { 
-
-		subdomains: 'abcd',
-
-
-    maxZoom:20, 
-	ext: 'png'
-
-
-}) 
-
+layer: roads
 }, 
 
 			
@@ -195,13 +185,7 @@ name: "Rete ciclabile (cycling)",
 
 icon: '<i class="icon icon-velo"></i>', 
 
-layer: L.tileLayer('https://tile.waymarkedtrails.org/cycling/{z}/{x}/{y}.png', { 
-
-    maxZoom:20, 
-
-  
-
-}) 
+layer: cycling
 
 }, 
 
@@ -216,13 +200,7 @@ name: "Trekking (hiking)",
 
 icon: '<i class="icon icon-randonnee"></i>', 
 
-layer: L.tileLayer('https://tile.waymarkedtrails.org/hiking/{z}/{x}/{y}.png', { 
-
-    maxZoom:20, 
-
-  
-
-}) 
+layer: hiking
 
 }, 
 
@@ -234,13 +212,7 @@ name: "Sci (skiing)",
 
 icon: '<i class="icon icon-mountains"></i>', 
 
-layer: L.tileLayer('https://tiles.opensnowmap.org/pistes/{z}/{x}/{y}.png', { 
-
-    maxZoom:20, 
-
-  
-
-}) 
+layer: skiing
 
 }, 
 
@@ -252,16 +224,7 @@ layer: L.tileLayer('https://tiles.opensnowmap.org/pistes/{z}/{x}/{y}.png', {
 				active: false,
 				name: "Linee de contorno (cont. lines)",
 				icon: '<i class="icon icon-mountains"></i>',
-				layer: {
-					type: "tileLayer.wms",
-					args: ["https://ows.terrestris.de/osm/service?", {
-							layers: 'SRTM30-Contour',
-							format: 'image/png',
-							transparent: true,
-							//minZoom: 13
-						}
-					]
-				}
+				layer: contourlines
 				
 			},
 	
@@ -317,3 +280,29 @@ collapsibleGroups: true
 
   
 map.addControl(panelLayers);
+
+	    var allMapLayers = {
+	      'base': mapbase,
+	    'aerial': aerial,
+	  'hotels': hotels,
+ 'restaurants': restaurants,
+		     'stores': stores,
+		     'services': services,
+		     'leisure': leisure,
+		     'monuments': monuments,
+	     'flickr': flickr,
+			     'wikipedia': wiki,
+		     'roads': roads,
+		     'cycling': cycling,
+		     'hiking': hiking,
+		     'skiing': skiing,
+		     'contourlines': contourlines,
+	    
+	  }
+	    ;
+    var hash = new L.Hash(map, allMapLayers);
+ 
+
+
+
+

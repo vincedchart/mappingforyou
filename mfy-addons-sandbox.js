@@ -195,7 +195,7 @@ ctlMousePosition = L.control.mousePosition().addTo(map);
 
  setTimeout(function(){
 	control.hide();
-}, 500);
+}, 3000);
 
 // recherche lieu,  
 

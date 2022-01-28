@@ -75,7 +75,7 @@
 }
 
 .leaflet-routing-icon {
-    background-image: url('leaflet.routing.icons.png');
+    background-image: url('https://cdnjs.cloudflare.com/ajax/libs/leaflet-routing-machine/3.2.5/routing-icon.png');
     -webkit-background-size: 240px 20px;
     background-size: 240px 20px;
     background-repeat: no-repeat;

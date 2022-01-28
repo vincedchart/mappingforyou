@@ -189,12 +189,16 @@ ctlMousePosition = L.control.mousePosition().addTo(map);
     profile: 'foot', 
 
   }), 
+	 
+	 collapsible: true,
 
-  geocoder: L.Control.Geocoder.nominatim({collapsed: false}) 
+  geocoder: L.Control.Geocoder.nominatim({}) 
 
 }).addTo(map); 
 
- 
+ setTimeout(function(){
+	control.hide();
+}, 500);
 
 // recherche lieu,  
 

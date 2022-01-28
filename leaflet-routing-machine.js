@@ -3463,7 +3463,7 @@ module.exports = L.Routing = {
 			itineraryClassName: '',
 			totalDistanceRoundingSensitivity: -1,
 			show: false,
-			collapsible: undefined,
+			collapsible: true,
 			collapseBtn: function(itinerary) {
 				var collapseBtn = L.DomUtil.create('span', itinerary.options.collapseBtnClass);
 				L.DomEvent.on(collapseBtn, 'click', itinerary._toggle, itinerary);

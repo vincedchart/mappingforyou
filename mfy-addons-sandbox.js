@@ -184,11 +184,7 @@ ctlMousePosition = L.control.mousePosition().addTo(map);
 
  router: osrRouter,
    
-      formatter: L.routing.formatterORS({
-         language: 'fr',     // language of instructions & control ui
-        steptotext: true,   // force using internal formatter instead of ORS instructions
-    }),
-   
+ 
   
 	 
 	 collapsible: true,

@@ -2,7 +2,7 @@
 
  
 
-  //        var monum = L.WMS.overlay('http://mappingforyou.eu/geoserver/wms?', { 
+  //        var monum = L.WMS.overlay('http://mappingforyou.eu:8080/geoserver/wms?', { 
 
 // layers: 'france.patrim.mhareas', 
 
@@ -61,7 +61,7 @@ var overLayers = [
 				icon: '<i class="icon icon-tente"></i>',
 				layer: {
 					type: "tileLayer.wms",
-					args: ["http://mappingforyou.eu/geoserver/wms", {
+					args: ["http://mappingforyou.eu:8080/geoserver/wms", {
 							layers: 'usa.poi.hebergement',
 							format: 'image/png',
 							transparent: true,
@@ -77,7 +77,7 @@ var overLayers = [
 				icon: '<i class="icon icon-restaurant"></i>',
 				layer: {
 					type: "tileLayer.wms",
-					args: ["http://mappingforyou.eu/geoserver/wms", {
+					args: ["http://mappingforyou.eu:8080/geoserver/wms", {
 							layers: 'usa.poi.barrest',
 							format: 'image/png',
 							transparent: true,
@@ -93,7 +93,7 @@ var overLayers = [
 				icon: '<i class="icon icon-supermarche"></i>',
 				layer: {
 					type: "tileLayer.wms",
-					args: ["http://mappingforyou.eu/geoserver/wms", {
+					args: ["http://mappingforyou.eu:8080/geoserver/wms", {
 							layers: 'usa.poi.stores',
 							format: 'image/png',
 							transparent: true,
@@ -110,7 +110,7 @@ var overLayers = [
 				icon: '<i class="icon icon-emergency"></i>',
 				layer: {
 					type: "tileLayer.wms",
-					args: ["http://mappingforyou.eu/geoserver/wms", {
+					args: ["http://mappingforyou.eu:8080/geoserver/wms", {
 							layers: 'usa.poi.services',
 							format: 'image/png',
 							transparent: true,
@@ -127,7 +127,7 @@ var overLayers = [
 				icon: '<i class="icon icon-loisirs"></i>',
 				layer: {
 					type: "tileLayer.wms",
-					args: ["http://mappingforyou.eu/geoserver/wms", {
+					args: ["http://mappingforyou.eu:8080/geoserver/wms", {
 							layers: 'usa.poi.loisirs',
 							format: 'image/png',
 							transparent: true,

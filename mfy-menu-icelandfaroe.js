@@ -4,7 +4,7 @@
 
  
 
-  //        var monum = L.WMS.overlay('http://mappingforyou.eu/geoserver/wms?', { 
+  //        var monum = L.WMS.overlay('http://mappingforyou.eu:8080/geoserver/wms?', { 
 
 // layers: 'france.patrim.mhareas', 
 
@@ -63,7 +63,7 @@ var overLayers = [
 				icon: '<i class="icon icon-tente"></i>',
 				layer: {
 					type: "tileLayer.wms",
-					args: ["http://mappingforyou.eu/geoserver/wms", {
+					args: ["http://mappingforyou.eu:8080/geoserver/wms", {
 							layers: 'icelandfaroe.poi.hebergement',
 							format: 'image/png',
 							transparent: true,
@@ -79,7 +79,7 @@ var overLayers = [
 				icon: '<i class="icon icon-restaurant"></i>',
 				layer: {
 					type: "tileLayer.wms",
-					args: ["http://mappingforyou.eu/geoserver/wmslayer", {
+					args: ["http://mappingforyou.eu:8080/geoserver/wmslayer", {
 							layers: 'icelandfaroe.poi.barrest',
 							format: 'image/png',
 							transparent: true,
@@ -95,7 +95,7 @@ var overLayers = [
 				icon: '<i class="icon icon-supermarche"></i>',
 				layer: {
 					type: "tileLayer.wms",
-					args: ["http://mappingforyou.eu/geoserver/wms", {
+					args: ["http://mappingforyou.eu:8080/geoserver/wms", {
 							layers: 'icelandfaroe.poi.stores',
 							format: 'image/png',
 							transparent: true,
@@ -112,7 +112,7 @@ var overLayers = [
 				icon: '<i class="icon icon-emergency"></i>',
 				layer: {
 					type: "tileLayer.wms",
-					args: ["http://mappingforyou.eu/geoserver/wms", {
+					args: ["http://mappingforyou.eu:8080/geoserver/wms", {
 							layers: 'icelandfaroe.poi.services',
 							format: 'image/png',
 							transparent: true,
@@ -129,7 +129,7 @@ var overLayers = [
 				icon: '<i class="icon icon-loisirs"></i>',
 				layer: {
 					type: "tileLayer.wms",
-					args: ["http://mappingforyou.eu/geoserver/wms", {
+					args: ["http://mappingforyou.eu:8080/geoserver/wms", {
 							layers: 'icelandfaroe.poi.loisirs',
 							format: 'image/png',
 							transparent: true,

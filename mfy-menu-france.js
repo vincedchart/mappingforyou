@@ -2,7 +2,7 @@
 
  
 
-  //        var monum = L.WMS.overlay('http://mappingforyou.eu/geoserver/wms?', { 
+  //        var monum = L.WMS.overlay('http://mappingforyou.eu:8080/geoserver/wms?', { 
 
 // layers: 'france.patrim.mhareas', 
 
@@ -19,66 +19,66 @@
 
         var aerial = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}');
 
-        var hotels = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+        var hotels = L.tileLayer.wms('http://mappingforyou.eu:8080/geoserver/wms?', { 
        layers: 'france.poi.hebergement', 
         format: 'image/png',
                  transparent: true,               
 }); 
 
-        var restaurants = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+        var restaurants = L.tileLayer.wms('http://mappingforyou.eu:8080/geoserver/wms?', { 
        layers: 'france.poi.barrest', 
         format: 'image/png',
                  transparent: true,               
 }); 
 
 
-        var stores = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+        var stores = L.tileLayer.wms('http://mappingforyou.eu:8080/geoserver/wms?', { 
        layers: 'france.poi.stores', 
         format: 'image/png',
                  transparent: true,               
 }); 
 
 
-        var services = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+        var services = L.tileLayer.wms('http://mappingforyou.eu:8080/geoserver/wms?', { 
        layers: 'france.poi.services', 
         format: 'image/png',
                  transparent: true,               
 }); 
 
 
-        var leisure = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+        var leisure = L.tileLayer.wms('http://mappingforyou.eu:8080/geoserver/wms?', { 
        layers: 'france.poi.loisirs', 
         format: 'image/png',
                  transparent: true,               
 }); 
 
 
-        var monuments = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+        var monuments = L.tileLayer.wms('http://mappingforyou.eu:8080/geoserver/wms?', { 
        layers: 'france.patrim.mhareas', 
         format: 'image/png',
                  transparent: true,               
 }); 
 
 
-        var wines = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+        var wines = L.tileLayer.wms('http://mappingforyou.eu:8080/geoserver/wms?', { 
        layers: 'france.patrim.aocigp_simpl500_alcools', 
         format: 'image/png',
                  transparent: true,               
 }); 
 
-        var specialities = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+        var specialities = L.tileLayer.wms('http://mappingforyou.eu:8080/geoserver/wms?', { 
        layers: 'france.patrim.aocigp_simpl500_specialites', 
         format: 'image/png',
                  transparent: true,               
 }); 
 
-        var historical = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+        var historical = L.tileLayer.wms('http://mappingforyou.eu:8080/geoserver/wms?', { 
        layers: 'france.histoire.provinces', 
         format: 'image/png',
                  transparent: true,               
 }); 
 
-        var bus = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+        var bus = L.tileLayer.wms('http://mappingforyou.eu:8080/geoserver/wms?', { 
        layers: 'france.roads.bus10m', 
         format: 'image/png',
                  transparent: true,               

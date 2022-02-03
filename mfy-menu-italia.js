@@ -2,7 +2,7 @@
 
  
 
-  //        var monum = L.WMS.overlay('http://mappingforyou.eu/geoserver/wms?', { 
+  //        var monum = L.WMS.overlay('http://mappingforyou.eu:8080/geoserver/wms?', { 
 
 // layers: 'france.patrim.mhareas', 
 
@@ -20,41 +20,41 @@
 
         var aerial = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}');
 
-        var hotels = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+        var hotels = L.tileLayer.wms('http://mappingforyou.eu:8080/geoserver/wms?', { 
        layers: 'it.poi.hebergement', 
         format: 'image/png',
                  transparent: true,               
 }); 
 
-        var restaurants = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+        var restaurants = L.tileLayer.wms('http://mappingforyou.eu:8080/geoserver/wms?', { 
        layers: 'it.poi.barrest', 
         format: 'image/png',
                  transparent: true,               
 }); 
 
 
-        var stores = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+        var stores = L.tileLayer.wms('http://mappingforyou.eu:8080/geoserver/wms?', { 
        layers: 'it.poi.stores', 
         format: 'image/png',
                  transparent: true,               
 }); 
 
 
-        var services = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+        var services = L.tileLayer.wms('http://mappingforyou.eu:8080/geoserver/wms?', { 
        layers: 'it.poi.services', 
         format: 'image/png',
                  transparent: true,               
 }); 
 
 
-        var leisure = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+        var leisure = L.tileLayer.wms('http://mappingforyou.eu:8080/geoserver/wms?', { 
        layers: 'it.poi.loisirs', 
         format: 'image/png',
                  transparent: true,               
 }); 
 
 
-        var monuments = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+        var monuments = L.tileLayer.wms('http://mappingforyou.eu:8080/geoserver/wms?', { 
        layers: 'it.patrim.catalogopatrim', 
         format: 'image/png',
                  transparent: true,               

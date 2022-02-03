@@ -158,41 +158,41 @@ background-color: #ccc;
 
 /* ICONS */ 
 
-.icon-restaurant {background: url('http://mappingforyou.eu/icons/restaurant2.png') center center no-repeat;} 
+.icon-restaurant {background: url('https://mappingforyou.eu/icons/restaurant2.png') center center no-repeat;} 
 
-.icon-specialites {background: url('http://mappingforyou.eu/icons/cheese2.png') center center no-repeat;} 
+.icon-specialites {background: url('https://mappingforyou.eu/icons/cheese2.png') center center no-repeat;} 
 
-.icon-vins {background: url('http://mappingforyou.eu/icons/vins.png') center center no-repeat;} 
+.icon-vins {background: url('https://mappingforyou.eu/icons/vins.png') center center no-repeat;} 
 
-.icon-supermarche {background: url('http://mappingforyou.eu/icons/supermarche.png') center center no-repeat;} 
+.icon-supermarche {background: url('https://mappingforyou.eu/icons/supermarche.png') center center no-repeat;} 
 
-.icon-randonnee {background: url('http://mappingforyou.eu/icons/randonnee.png') center center no-repeat;} 
+.icon-randonnee {background: url('https://mappingforyou.eu/icons/randonnee.png') center center no-repeat;} 
 
-.icon-tente {background: url('http://mappingforyou.eu/icons/hostel_0star.png') center center no-repeat;} 
+.icon-tente {background: url('https://mappingforyou.eu/icons/hostel_0star.png') center center no-repeat;} 
 
-.icon-velo {background: url('http://mappingforyou.eu/icons/velo.png') center center no-repeat;} 
+.icon-velo {background: url('https://mappingforyou.eu/icons/velo.png') center center no-repeat;} 
 
-.icon-vignoble {background: url('http://mappingforyou.eu/icons/vignoble.png') center center no-repeat;} 
+.icon-vignoble {background: url('https://mappingforyou.eu/icons/vignoble.png') center center no-repeat;} 
 
-.icon-monument {background: url('http://mappingforyou.eu/icons/randonnee.png') center center no-repeat;} 
+.icon-monument {background: url('https://mappingforyou.eu/icons/randonnee.png') center center no-repeat;} 
 
-.icon-monument {background: url('http://mappingforyou.eu/icons/monument.png') center center no-repeat;} 
+.icon-monument {background: url('https://mappingforyou.eu/icons/monument.png') center center no-repeat;} 
 
-.icon-cafe {background: url('http://mappingforyou.eu/icons/cafe.png') center center no-repeat;} 
+.icon-cafe {background: url('https://mappingforyou.eu/icons/cafe.png') center center no-repeat;} 
 
-.icon-montagne {background: url('http://mappingforyou.eu/icons/montagne.png') center center no-repeat;} 
+.icon-montagne {background: url('https://mappingforyou.eu/icons/montagne.png') center center no-repeat;} 
 
-.icon-bus {background: url('http://mappingforyou.eu/icons/busstop.png') center center no-repeat;} 
+.icon-bus {background: url('https://mappingforyou.eu/icons/busstop.png') center center no-repeat;} 
 
-.icon-loisirs {background: url('http://mappingforyou.eu/icons/beachvolleyball.png') center center no-repeat;} 
+.icon-loisirs {background: url('https://mappingforyou.eu/icons/beachvolleyball.png') center center no-repeat;} 
 
-.icon-provinces {background: url('http://mappingforyou.eu/icons/historical_museum.png') center center no-repeat;} 
+.icon-provinces {background: url('https://mappingforyou.eu/icons/historical_museum.png') center center no-repeat;} 
 
-.icon-emergency {background: url('http://mappingforyou.eu/icons/emergencyphone.png') center center no-repeat;} 
+.icon-emergency {background: url('https://mappingforyou.eu/icons/emergencyphone.png') center center no-repeat;} 
 
-.icon-mountains {background: url('http://mappingforyou.eu/icons/mountains.png') center center no-repeat;} 
+.icon-mountains {background: url('https://mappingforyou.eu/icons/mountains.png') center center no-repeat;} 
 
-.icon-road {background: url('http://mappingforyou.eu/icons/road.png') center center no-repeat;} 
+.icon-road {background: url('https://mappingforyou.eu/icons/road.png') center center no-repeat;} 
 
   
 
@@ -218,7 +218,7 @@ text-align: center;
 
         .leaflet-draw-toolbar .leaflet-draw-draw-shapefile { 
 
-background-image: url('http://mappingforyou.eu/icons/draw-shapefile.png') !important; 
+background-image: url('https://mappingforyou.eu/icons/draw-shapefile.png') !important; 
 
 background-size: 60px 120px; 
 

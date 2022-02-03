@@ -265,7 +265,7 @@ function load_wfs() {
 
     if (map.getZoom() > start_at_zoom) { 
 
-        var geoJsonUrl = 'http://mappingforyou.eu/geoserver/wfs?'; 
+        var geoJsonUrl = 'http://mappingforyou.eu:8080/geoserver/wfs?'; 
 
         var defaultParameters = { 
 
@@ -389,7 +389,7 @@ function load_wfs2() {
 
     if (map.getZoom() > start_at_zoom2) { 
 
-        var geoJsonUrl2 = 'http://mappingforyou.eu/geoserver/wfs?'; 
+        var geoJsonUrl2 = 'http://mappingforyou.eu:8080/geoserver/wfs?'; 
 
         var defaultParameters2 = { 
 

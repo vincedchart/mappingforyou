@@ -2,7 +2,7 @@
 
  
 
-  //        var monum = L.WMS.overlay('http://mappingforyou.eu/geoserver/wms?', { 
+  //        var monum = L.WMS.overlay('http://mappingforyou.eu:8080/geoserver/wms?', { 
 
 // layers: 'france.patrim.mhareas', 
 
@@ -18,7 +18,7 @@
 // mise sous reference
 
 
-        var hebergement = L.tileLayer.wms('http://mappingforyou.eu/geoserver/wms?', { 
+        var hebergement = L.tileLayer.wms('http://mappingforyou.eu:8080/geoserver/wms?', { 
        layers: 'france.poi.hebergement', 
           maxZoom: 20, 
           minZoom: 16,
@@ -86,7 +86,7 @@ layer: {
 
 type: "tileLayer.wms", 
 
-args: ["http://mappingforyou.eu/geoserver/wms", { 
+args: ["http://mappingforyou.eu:8080/geoserver/wms", { 
 
 layers: 'france.poi.hebergement', 
 
@@ -118,7 +118,7 @@ layer: {
 
 type: "tileLayer.wms", 
 
-args: ["http://mappingforyou.eu/geoserver/wms", { 
+args: ["http://mappingforyou.eu:8080/geoserver/wms", { 
 
 layers: 'france.poi.barrest', 
 
@@ -162,7 +162,7 @@ layer: {
 
 type: "tileLayer.wms", 
 
-args: ["http://mappingforyou.eu/geoserver/wms", { 
+args: ["http://mappingforyou.eu:8080/geoserver/wms", { 
 
 layers: 'france.poi.stores', 
 
@@ -188,7 +188,7 @@ transparent: true,
 					icon: '<i class="icon icon-supermarche"></i>',
 					layer: {
 						type: "tileLayer.wms",
-						args: ["http://mappingforyou.eu/geoserver/wms", {
+						args: ["http://mappingforyou.eu:8080/geoserver/wms", {
 								layers: 'france.poi.commercesmagell',
 								format: 'image/png',
 								transparent: true,
@@ -211,7 +211,7 @@ layer: {
 
 type: "tileLayer.wms", 
 
-args: ["http://mappingforyou.eu/geoserver/wms", { 
+args: ["http://mappingforyou.eu:8080/geoserver/wms", { 
 
 layers: 'france.poi.services', 
 
@@ -243,7 +243,7 @@ layer: {
 
 type: "tileLayer.wms", 
 
-args: ["http://mappingforyou.eu/geoserver/wms", { 
+args: ["http://mappingforyou.eu:8080/geoserver/wms", { 
 
 layers: 'france.poi.loisirs', 
 
@@ -279,7 +279,7 @@ layer: {
 
 type: "tileLayer.wms", 
 
-args: ["http://mappingforyou.eu/geoserver/wms", { 
+args: ["http://mappingforyou.eu:8080/geoserver/wms", { 
 
 layers: 'france.patrim.mhareas', 
 
@@ -360,7 +360,7 @@ layer: {
 
 type: "tileLayer.wms", 
 
-args: ["http://mappingforyou.eu/geoserver/wms", { 
+args: ["http://mappingforyou.eu:8080/geoserver/wms", { 
 
 layers: 'france.patrim.aocigp_simpl500_alcools', 
 
@@ -390,7 +390,7 @@ layer: {
 
 type: "tileLayer.wms", 
 
-args: ["http://mappingforyou.eu/geoserver/wms", { 
+args: ["http://mappingforyou.eu:8080/geoserver/wms", { 
 
 layers: 'france.patrim.aocigp_simpl500_specialites', 
 
@@ -420,7 +420,7 @@ layer: {
 
 type: "tileLayer.wms", 
 
-args: ["http://mappingforyou.eu/geoserver/wms", { 
+args: ["http://mappingforyou.eu:8080/geoserver/wms", { 
 
 layers: 'france.histoire.provinces', 
 
@@ -450,7 +450,7 @@ layer: {
 
 type: "tileLayer.wms", 
 
-args: ["http://mappingforyou.eu/geoserver/wms", { 
+args: ["http://mappingforyou.eu:8080/geoserver/wms", { 
 
 layers: 'france.roads.bus10m', 
 
@@ -592,7 +592,7 @@ transparent: true,
 					icon: '<i class="icon icon-monument"></i>',
 					layer: {
 						type: "tileLayer.wms",
-						args: ["http://mappingforyou.eu/geoserver/wms", {
+						args: ["http://mappingforyou.eu:8080/geoserver/wms", {
 								layers: 'france.admin.limites',
 								format: 'image/png',
 								transparent: true,

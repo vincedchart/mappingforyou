@@ -2,7 +2,7 @@
 
  
 
-  //        var monum = L.WMS.overlay('http://mappingforyou.eu/geoserver/wms?', { 
+  //        var monum = L.WMS.overlay('http://mappingforyou.eu:8080/geoserver/wms?', { 
 
 // layers: 'france.patrim.mhareas', 
 
@@ -62,7 +62,7 @@ var overLayers = [
 				icon: '<i class="icon icon-tente"></i>',
 				layer: {
 					type: "tileLayer.wms",
-					args: ["http://mappingforyou.eu/geoserver/wms", {
+					args: ["http://mappingforyou.eu:8080/geoserver/wms", {
 							layers: 'france.poi.hebergement',
 							format: 'image/png',
 							transparent: true,
@@ -78,7 +78,7 @@ var overLayers = [
 				icon: '<i class="icon icon-restaurant"></i>',
 				layer: {
 					type: "tileLayer.wms",
-					args: ["http://mappingforyou.eu/geoserver/wms", {
+					args: ["http://mappingforyou.eu:8080/geoserver/wms", {
 							layers: 'france.poi.barrest',
 							format: 'image/png',
 							transparent: true,
@@ -94,7 +94,7 @@ var overLayers = [
 				icon: '<i class="icon icon-supermarche"></i>',
 				layer: {
 					type: "tileLayer.wms",
-					args: ["http://mappingforyou.eu/geoserver/wms", {
+					args: ["http://mappingforyou.eu:8080/geoserver/wms", {
 							layers: 'france.poi.stores',
 							format: 'image/png',
 							transparent: true,
@@ -114,7 +114,7 @@ var overLayers = [
 				icon: '<i class="icon icon-emergency"></i>',
 				layer: {
 					type: "tileLayer.wms",
-					args: ["http://mappingforyou.eu/geoserver/wms", {
+					args: ["http://mappingforyou.eu:8080/geoserver/wms", {
 							layers: 'france.poi.services',
 							format: 'image/png',
 							transparent: true,
@@ -131,7 +131,7 @@ var overLayers = [
 				icon: '<i class="icon icon-loisirs"></i>',
 				layer: {
 					type: "tileLayer.wms",
-					args: ["http://mappingforyou.eu/geoserver/wms", {
+					args: ["http://mappingforyou.eu:8080/geoserver/wms", {
 							layers: 'france.poi.loisirs',
 							format: 'image/png',
 							transparent: true,
@@ -149,7 +149,7 @@ var overLayers = [
 				icon: '<i class="icon icon-monument"></i>',
 				layer: {
 					type: "tileLayer.wms",
-					args: ["http://mappingforyou.eu/geoserver/wms", {
+					args: ["http://mappingforyou.eu:8080/geoserver/wms", {
 							layers: 'antillesguyane.patrim.mhmartiniquearea',
 							format: 'image/png',
 							transparent: true,
@@ -181,7 +181,7 @@ var overLayers = [
 				icon: '<i class="icon icon-vins"></i>',
 				layer: {
 					type: "tileLayer.wms",
-					args: ["http://mappingforyou.eu/geoserver/wms", {
+					args: ["http://mappingforyou.eu:8080/geoserver/wms", {
 							layers: 'france.patrim.aocigp_simpl500_alcools',
 							format: 'image/png',
 							transparent: true,
@@ -197,7 +197,7 @@ var overLayers = [
 				icon: '<i class="icon icon-specialites"></i>',
 				layer: {
 					type: "tileLayer.wms",
-					args: ["http://mappingforyou.eu/geoserver/wms", {
+					args: ["http://mappingforyou.eu:8080/geoserver/wms", {
 							layers: 'france.patrim.aocigp_simpl500_specialites',
 							format: 'image/png',
 							transparent: true,
@@ -216,7 +216,7 @@ var overLayers = [
 				icon: '<i class="icon icon-bus"></i>',
 				layer: {
 					type: "tileLayer.wms",
-					args: ["http://mappingforyou.eu/geoserver/wms", {
+					args: ["http://mappingforyou.eu:8080/geoserver/wms", {
 							layers: 'france.roads.bus10m',
 							format: 'image/png',
 							transparent: true,

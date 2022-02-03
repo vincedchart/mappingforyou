@@ -2,7 +2,7 @@
 
  
 
-  //        var monum = L.WMS.overlay('http://mappingforyou.eu/geoserver/wms?', { 
+  //        var monum = L.WMS.overlay('http://mappingforyou.eu:8080/geoserver/wms?', { 
 
 // layers: 'france.patrim.mhareas', 
 
@@ -72,7 +72,7 @@ var overLayers = [
 				icon: '<i class="icon icon-monument"></i>',
 				layer: {
 					type: "tileLayer.wms",
-					args: ["http://mappingforyou.eu/geoserver/wms", {
+					args: ["http://mappingforyou.eu:8080/geoserver/wms", {
 							layers: 'monde.patrim.unesco',
 							format: 'image/png',
 							transparent: true,

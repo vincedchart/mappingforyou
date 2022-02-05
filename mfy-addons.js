@@ -253,10 +253,3 @@ function onMoveEnd(evt) {
   }
 }
 map.on('moveend', onMoveEnd);
-
-// spin
-
-                var loadingControl = L.Control.loading({
-                    spinjs: true
-                });
-                map.addControl(loadingControl);

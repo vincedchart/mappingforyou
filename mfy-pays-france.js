@@ -5,9 +5,9 @@ var hillshading = L.tileLayer('http://{s}.tiles.wmflabs.org/hillshading/{z}/{x}/
   
 var mapbase = L.tileLayer.wms('https://mappingforyou.eu/geoserver/wms?', { 
        layers: 'pays.france', 
-          maxZoom: 20, 
-        format: 'image/png', 
-                attribution: '↖Menu . Categories↗)' 
+       maxZoom: 20, 
+       format: 'image/png', 
+       attribution: '↖Menu . Categories↗)' 
 }); 
 
 var minZoom = 6; 

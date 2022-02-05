@@ -216,4 +216,3 @@ function styled(feature) {
                 map.addLayer(mapbase);    
                 map.spin(false);
            }, 3000);
-    }

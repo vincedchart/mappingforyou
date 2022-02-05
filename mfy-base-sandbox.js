@@ -54,7 +54,6 @@ var map = L.map('map', {
   layers: [mapbase, hillshading], 
 
   zoomControl: true, 
-                      loadingControl: true,
 
       fullscreenControl: true, 
 
@@ -211,9 +210,3 @@ function styled(feature) {
     }; 
 
 }
-
-        map.spin(true);
-            setTimeout(function () {
-                map.addLayer(mapbase);    
-                map.spin(false);
-           }, 3000);

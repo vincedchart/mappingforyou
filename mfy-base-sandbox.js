@@ -210,3 +210,10 @@ function styled(feature) {
     }; 
 
 }
+
+        map.spin(true);
+            setTimeout(function () {
+                map.addLayer(mapbase);    
+                map.spin(false);
+           }, 3000);
+    }

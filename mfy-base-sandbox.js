@@ -54,6 +54,8 @@ var map = L.map('map', {
   layers: [mapbase, hillshading], 
 
   zoomControl: true, 
+  
+  loadingControl: true,
 
       fullscreenControl: true, 
 

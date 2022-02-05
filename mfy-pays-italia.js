@@ -4,7 +4,7 @@ var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
 var hillshading = L.tileLayer('http://{s}.tiles.wmflabs.org/hillshading/{z}/{x}/{y}.png', { maxZoom: 20, opacity: 0  }); 
   
 var mapbase = L.tileLayer.wms('https://mappingforyou.eu/geoserver/wms?', { 
-       layers: 'pays.france', 
+       layers: 'pays.italia', 
        maxZoom: 20, 
        format: 'image/png', 
        attribution: '↖Menu . Categories↗)' 

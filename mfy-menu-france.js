@@ -150,7 +150,7 @@ active: false,
 
 name: "Heberg. (lodging)", 
 
-icon: '<img src="https://mappingforyou.eu/icons2/accommodation_hotel2.svg">', 
+icon: '<img src="https://mappingforyou.eu/icons2/hostel_0star.png" style="height:16px;width:16px;display:inline-block;margin:2px;background-color: #ccc;"/>', 
 
 layer: hotels
 	
@@ -162,7 +162,7 @@ active: false,
 
 name: "Restauration (catering)", 
 
-icon: '<img src="https://mappingforyou.eu/icons2/restaurant2.png">', 
+icon: '<img src="https://mappingforyou.eu/icons2/restaurant2.png" style="height:16px;width:16px;display:inline-block;margin:2px;background-color: #ccc;">', 
 
 layer: restaurants
 	
@@ -176,7 +176,7 @@ active: false,
 
 name: "Alimentation (food goods)", 
 
-icon: '<img src="https://mappingforyou.eu/icons2/supermarche.png">', 
+icon: '<img src="https://mappingforyou.eu/icons2/supermarche.png" style="height:16px;width:16px;display:inline-block;margin:2px;background-color: #ccc;">', 
 
 layer: stores
 }, 

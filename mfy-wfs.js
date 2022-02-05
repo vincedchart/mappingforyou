@@ -265,7 +265,7 @@ function load_wfs() {
 
     if (map.getZoom() > start_at_zoom) { 
 
-        var geoJsonUrl = 'http://mappingforyou.eu:8080/geoserver/wfs?'; 
+        var geoJsonUrl = 'https://mappingforyou.eu/geoserver/wfs?'; 
 
         var defaultParameters = { 
 
@@ -288,13 +288,6 @@ function load_wfs() {
         }; 
 
   
-
-  
-
-  
-
-  
-
         var customParams = { 
 
             bbox: map.getBounds().toBBoxString() 
@@ -339,13 +332,8 @@ function load_wfs() {
 
 // test wfs2 
 
-  
-
-  
-
 var start_at_zoom2 = 10; 
 
-  
 
 function onEachFeature2(feature, layer) { 
 
@@ -354,12 +342,9 @@ function onEachFeature2(feature, layer) {
     if (feature.properties && feature.properties.appelation) { 
 
         layer.bindPopup(feature.properties.cuisine + '</br>' + feature.properties.legende) ; 
-
     } 
 
 } 
-
-  
 
   
 
@@ -389,7 +374,7 @@ function load_wfs2() {
 
     if (map.getZoom() > start_at_zoom2) { 
 
-        var geoJsonUrl2 = 'http://mappingforyou.eu:8080/geoserver/wfs?'; 
+        var geoJsonUrl2 = 'https://mappingforyou.eu/geoserver/wfs?'; 
 
         var defaultParameters2 = { 
 

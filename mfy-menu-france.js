@@ -189,7 +189,7 @@ active: false,
 
 name: "Services/urg. (serv./emerg.)", 
 
-icon: '<img src="https://mappingforyou.eu/icons2/emergencyphone.png">', 
+icon: '<img src="https://mappingforyou.eu/icons2/emergencyphone.png" style="height:16px;width:16px;display:inline-block;margin:2px;background-color: #ccc;"/>', 
 
 layer: services
 }, 
@@ -200,7 +200,7 @@ active: false,
 
 name: "Loisirs (going out)", 
 
-icon: '<img src="https://mappingforyou.eu/icons2/beachvolleyball.png">', 
+icon: '<img src="https://mappingforyou.eu/icons2/beachvolleyball.png" style="height:16px;width:16px;display:inline-block;margin:2px;background-color: #ccc;"/>', 
 
 layer: leisure 
 
@@ -214,7 +214,7 @@ active: false,
 
 name: "Mon.historiques(listed bldg)", 
 
-icon: '<img src="https://mappingforyou.eu/icons2/monument.png">', 
+icon: '<img src="https://mappingforyou.eu/icons2/monument.png" style="height:16px;width:16px;display:inline-block;margin:2px;background-color: #ccc;"/>', 
 
 layer: monuments
 }, 
@@ -223,7 +223,7 @@ layer: monuments
 
 // name: "Fusion MH (test)", 
 
-// icon: '<img src="https://mappingforyou.eu/icons2/monument.png">', 
+// icon: '<img src="https://mappingforyou.eu/icons2/monument.png" style="height:16px;width:16px;display:inline-block;margin:2px;background-color: #ccc;"/>', 
 
 // layer: mon 
 
@@ -235,7 +235,7 @@ active: false,
 
 name: "Mon.hist.info(listed bldg inf)", 
 
-icon: '<img src="https://mappingforyou.eu/icons2/monument.png">', 
+icon: '<img src="https://mappingforyou.eu/icons2/monument.png" style="height:16px;width:16px;display:inline-block;margin:2px;background-color: #ccc;"/>', 
 
 layer: featureLayer, 
 
@@ -247,7 +247,7 @@ layer: featureLayer,
 
  name: "Photos Flickr", 
 
- icon: '<img src="https://mappingforyou.eu/icons2/shopping_photo.svg">', 
+ icon: '<img src="https://mappingforyou.eu/icons2/shopping_photo.svg" style="height:16px;width:16px;display:inline-block;margin:2px;background-color: #ccc;"/>', 
 
  layer: flickr, 
 
@@ -259,7 +259,7 @@ active: false,
 
 name: "App.vins/spir.(cert,wine/liq.)", 
 
-icon: '<img src="https://mappingforyou.eu/icons2/vins.png">', 
+icon: '<img src="https://mappingforyou.eu/icons2/vins.png" style="height:16px;width:16px;display:inline-block;margin:2px;background-color: #ccc;"/>', 
 
 layer: wines
 
@@ -271,7 +271,7 @@ active: false,
 
 name: "App.spté rég.(cers,ot.prod.)", 
 
-icon: '<img src="https://mappingforyou.eu/icons2/cheese2.png">', 
+icon: '<img src="https://mappingforyou.eu/icons2/cheese2.png" style="height:16px;width:16px;display:inline-block;margin:2px;background-color: #ccc;"/>', 
 
 layer: specialities
 }, 
@@ -282,7 +282,7 @@ active: false,
 
 name: "Provinces hist. (hist. prov.)", 
 
-icon: '<img src="https://mappingforyou.eu/icons2/historical_museum.png">', 
+icon: '<img src="https://mappingforyou.eu/icons2/historical_museum.png" style="height:16px;width:16px;display:inline-block;margin:2px;background-color: #ccc;"/>', 
 
 layer: historical
 }, 
@@ -293,7 +293,7 @@ active: false,
 
 name: "Wikipedia", 
 
-icon: '<img src="https://mappingforyou.eu/icons2/wikipedia_16.png">', 
+icon: '<img src="https://mappingforyou.eu/icons2/wikipedia_16.png" style="height:16px;width:16px;display:inline-block;margin:2px;background-color: #ccc;"/>', 
 
 layer: wiki, 
 	     minZoom: 11
@@ -307,7 +307,7 @@ active: false,
 
 name: "Bus", 
 
-icon: '<img src="https://mappingforyou.eu/icons2/busstop.png">', 
+icon: '<img src="https://mappingforyou.eu/icons2/busstop.png" style="height:16px;width:16px;display:inline-block;margin:2px;background-color: #ccc;"/>', 
 
 layer: bus
 
@@ -321,7 +321,7 @@ layer: bus
 
 name: "Routes (roads)", 
 
-icon: '<img src="https://mappingforyou.eu/icons2/road.png">', 
+icon: '<img src="https://mappingforyou.eu/icons2/road.png" style="height:16px;width:16px;display:inline-block;margin:2px;background-color: #ccc;"/>', 
 
 layer: roads
 
@@ -333,7 +333,7 @@ layer: roads
 
 name: "Voies vélo (cycling)", 
 
-icon: '<img src="https://mappingforyou.eu/icons2/velo.png">', 
+icon: '<img src="https://mappingforyou.eu/icons2/velo.png" style="height:16px;width:16px;display:inline-block;margin:2px;background-color: #ccc;"/>', 
 
 layer: cycling
 
@@ -347,7 +347,7 @@ layer: cycling
 
 name: "Randonnée (hiking)", 
 
-icon: '<img src="https://mappingforyou.eu/icons2/randonnee.png">', 
+icon: '<img src="https://mappingforyou.eu/icons2/randonnee.png" style="height:16px;width:16px;display:inline-block;margin:2px;background-color: #ccc;"/>', 
 
 layer: hiking
 
@@ -359,7 +359,7 @@ layer: hiking
 
 name: "Ski (skiing)", 
 
-icon: '<img src="https://mappingforyou.eu/icons2/mountains.png">', 
+icon: '<img src="https://mappingforyou.eu/icons2/mountains.png" style="height:16px;width:16px;display:inline-block;margin:2px;background-color: #ccc;"/>', 
 
 layer: skiing
 
@@ -375,7 +375,7 @@ active: false,
 
 name: "Courbes de niv.(cont. lines)", 
 
-icon: '<img src="https://mappingforyou.eu/icons2/montagne.png">', 
+icon: '<img src="https://mappingforyou.eu/icons2/montagne.png" style="height:16px;width:16px;display:inline-block;margin:2px;background-color: #ccc;"/>', 
 
 layer: contourlines
 
@@ -387,7 +387,7 @@ active: false,
 
 name: "Dessins (drawn items)", 
 
-icon: '<img src="https://mappingforyou.eu/icons2/draw_shapefile.png">', 
+icon: '<img src="https://mappingforyou.eu/icons2/draw_shapefile.png" style="height:16px;width:16px;display:inline-block;margin:2px;background-color: #ccc;"/>', 
 
 layer: drawnItems, 
 

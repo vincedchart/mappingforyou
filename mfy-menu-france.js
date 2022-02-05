@@ -143,13 +143,14 @@ layer: aerial
 }, 
 
 
+
 { 
 
 active: false, 
 
 name: "Heberg. (lodging)", 
 
-icon: '<i class="icon icon-tente"></i>', 
+icon: '<img src="https://mappingforyou.eu/icons2/accommodation_hotel2.svg">', 
 
 layer: hotels
 	
@@ -161,7 +162,7 @@ active: false,
 
 name: "Restauration (catering)", 
 
-icon: '<i class="icon icon-restaurant"></i>', 
+icon: '<img src="https://mappingforyou.eu/icons2/restaurant2.png">', 
 
 layer: restaurants
 	
@@ -175,7 +176,7 @@ active: false,
 
 name: "Alimentation (food goods)", 
 
-icon: '<i class="icon icon-supermarche"></i>', 
+icon: '<img src="https://mappingforyou.eu/icons2/restaurant2.png">', 
 
 layer: stores
 }, 
@@ -188,7 +189,7 @@ active: false,
 
 name: "Services/urg. (serv./emerg.)", 
 
-icon: '<i class="icon icon-emergency"></i>', 
+icon: '<img src="https://mappingforyou.eu/icons2/restaurant2.png">', 
 
 layer: services
 }, 
@@ -199,7 +200,7 @@ active: false,
 
 name: "Loisirs (going out)", 
 
-icon: '<i class="icon icon-loisirs"></i>', 
+icon: '<img src="https://mappingforyou.eu/icons2/restaurant2.png">', 
 
 layer: leisure 
 
@@ -213,7 +214,7 @@ active: false,
 
 name: "Mon.historiques(listed bldg)", 
 
-icon: '<i class="icon icon-monument"></i>', 
+icon: '<img src="https://mappingforyou.eu/icons2/restaurant2.png">', 
 
 layer: monuments
 }, 
@@ -222,7 +223,7 @@ layer: monuments
 
 // name: "Fusion MH (test)", 
 
-// icon: '<i class="icon icon-velo"></i>', 
+// icon: '<img src="https://mappingforyou.eu/icons2/restaurant2.png">', 
 
 // layer: mon 
 
@@ -234,7 +235,7 @@ active: false,
 
 name: "Mon.hist.info(listed bldg inf)", 
 
-icon: '<i class="icon icon-monument"></i>', 
+icon: '<img src="https://mappingforyou.eu/icons2/restaurant2.png">', 
 
 layer: featureLayer, 
 
@@ -246,7 +247,7 @@ layer: featureLayer,
 
  name: "Photos Flickr", 
 
- icon: '<i class="icon icon-monument"></i>', 
+ icon: '<img src="https://mappingforyou.eu/icons2/restaurant2.png">', 
 
  layer: flickr, 
 
@@ -258,7 +259,7 @@ active: false,
 
 name: "App.vins/spir.(cert,wine/liq.)", 
 
-icon: '<i class="icon icon-vins"></i>', 
+icon: '<img src="https://mappingforyou.eu/icons2/restaurant2.png">', 
 
 layer: wines
 
@@ -270,7 +271,7 @@ active: false,
 
 name: "App.spté rég.(cers,ot.prod.)", 
 
-icon: '<i class="icon icon-specialites"></i>', 
+icon: '<img src="https://mappingforyou.eu/icons2/restaurant2.png">', 
 
 layer: specialities
 }, 
@@ -281,7 +282,7 @@ active: false,
 
 name: "Provinces hist. (hist. prov.)", 
 
-icon: '<i class="icon icon-provinces"></i>', 
+icon: '<img src="https://mappingforyou.eu/icons2/restaurant2.png">', 
 
 layer: historical
 }, 
@@ -292,7 +293,7 @@ active: false,
 
 name: "Wikipedia", 
 
-icon: '<i class="icon icon-restaurant"></i>', 
+icon: '<img src="https://mappingforyou.eu/icons2/restaurant2.png">', 
 
 layer: wiki, 
 	     minZoom: 11
@@ -306,7 +307,7 @@ active: false,
 
 name: "Bus", 
 
-icon: '<i class="icon icon-bus"></i>', 
+icon: '<img src="https://mappingforyou.eu/icons2/restaurant2.png">', 
 
 layer: bus
 
@@ -320,7 +321,7 @@ layer: bus
 
 name: "Routes (roads)", 
 
-icon: '<i class="icon icon-road"></i>', 
+icon: '<img src="https://mappingforyou.eu/icons2/restaurant2.png">', 
 
 layer: roads
 
@@ -332,7 +333,7 @@ layer: roads
 
 name: "Voies vélo (cycling)", 
 
-icon: '<i class="icon icon-velo"></i>', 
+icon: '<img src="https://mappingforyou.eu/icons2/restaurant2.png">', 
 
 layer: cycling
 
@@ -346,7 +347,7 @@ layer: cycling
 
 name: "Randonnée (hiking)", 
 
-icon: '<i class="icon icon-randonnee"></i>', 
+icon: '<img src="https://mappingforyou.eu/icons2/restaurant2.png">', 
 
 layer: hiking
 
@@ -358,7 +359,7 @@ layer: hiking
 
 name: "Ski (skiing)", 
 
-icon: '<i class="icon icon-mountains"></i>', 
+icon: '<img src="https://mappingforyou.eu/icons2/restaurant2.png">', 
 
 layer: skiing
 
@@ -374,7 +375,7 @@ active: false,
 
 name: "Courbes de niv.(cont. lines)", 
 
-icon: '<i class="icon icon-mountains"></i>', 
+icon: '<img src="https://mappingforyou.eu/icons2/restaurant2.png">', 
 
 layer: contourlines
 
@@ -386,7 +387,7 @@ active: false,
 
 name: "Dessins (drawn items)", 
 
-icon: '<i class="icon icon-monument"></i>', 
+icon: '<img src="https://mappingforyou.eu/icons2/restaurant2.png">', 
 
 layer: drawnItems, 
 

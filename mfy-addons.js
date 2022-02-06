@@ -32,7 +32,7 @@ L.control.browserPrint({
 
 // scale
 
-L.edgeScaleBar().addTo(map);
+// L.edgeScaleBar().addTo(map);
 
 // photos de son flickr 
 

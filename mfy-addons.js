@@ -1,4 +1,4 @@
-	L.control.betterscale().addTo(map);
+
 
 // print
 var customActionToPrint = function(context, mode) {
@@ -32,7 +32,8 @@ L.control.browserPrint({
 
 // scale
 
-// L.edgeScaleBar().addTo(map);
+L.edgeScaleBar().addTo(map);
+	L.control.betterscale().addTo(map);
 
 // photos de son flickr 
 

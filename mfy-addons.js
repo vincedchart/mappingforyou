@@ -3,7 +3,7 @@
 // scale
 
 L.edgeScaleBar().addTo(map);
-L.control.betterscale().addTo(map);
+L.control.betterscale({metric: true, imperial: false}).addTo(map);
 
 // photos de son flickr 
 

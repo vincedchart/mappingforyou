@@ -2,7 +2,6 @@
 
 // scale
 
-L.Control.Scale().remove();	
 L.edgeScaleBar().addTo(map);
 L.control.betterscale().addTo(map);
 

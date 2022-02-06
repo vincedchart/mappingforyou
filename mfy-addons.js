@@ -230,3 +230,5 @@ map.on('moveend', onMoveEnd);
 
 
 //
+
+L.control.browserPrint({position: 'topleft', title: 'Print ...'}).addTo(map);

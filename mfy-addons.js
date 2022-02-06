@@ -1,3 +1,5 @@
+	L.control.betterscale().addTo(map);
+
 // print
 var customActionToPrint = function(context, mode) {
 	return function() {

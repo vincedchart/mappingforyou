@@ -28,6 +28,10 @@ L.control.browserPrint({
 	manualMode: false
 }).addTo(map);
 
+// scale
+
+L.edgeScaleBar().addTo(map);
+
 // photos de son flickr 
 
  

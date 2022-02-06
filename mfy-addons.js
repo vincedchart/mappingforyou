@@ -1,7 +1,4 @@
 // print
-
-
-
 var customActionToPrint = function(context, mode) {
 	return function() {
 		window.alert("We are printing the MAP. Let's do Custom print here!");
@@ -168,37 +165,7 @@ map.addControl(comp);
 
 
 
-//easy print 
 
- 
-
-var printer = L.easyPrint({   
-
- tileLayer: mapbase,  
-
-sizeModes: ['Current', 'A4Landscape', 'A4Portrait'],  
-
-filename: 'myMap',  
-
-exportOnly: true,  
-
-hideControlContainer: true  
-
-}).addTo(map);  
-
- 
-
-function manualPrint () {  
-
-printer.printMap('CurrentSize', 'MyManualPrint')  
-
-} 
-
- 
-
- 
-
- 
 
 // avoir coordonnées gps 
 

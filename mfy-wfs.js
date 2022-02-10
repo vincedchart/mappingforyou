@@ -1,3 +1,10 @@
+//////////// 
+
+load_wfs(); 
+load_wfs2(); 
+
+
+
 // feature layer
 
 // colorisation puis table attributaire du featurelayer1 
@@ -30,39 +37,6 @@ null, {
     } 
 }); 
 
-// colorisation et table attributaire featureLayer2
-
-var featureLayer2 = new L.GeoJSON( 
-null, { 
-  //  style: styled(color= 'Peru', fillColor = 'Peru'), 
-           pointToLayer: function (feature, latlng) { 
-    var circleMarker2 = L.circleMarker(latlng, { 
-      radius: 8, 
-      fillColor: '#000000', 
-      color: "#000000", 
-      weight: 7, 
-      opacity: 0.5, 
-      fillOpacity: 0.5 
-    }); 
-    return(circleMarker2); 
-  }, 
-    onEachFeature:  
-    function popUpall2(feature, layer) { 
-        //console.info(feature); 
-        var out = []; 
-        if (feature.properties) { 
-            for (var key in feature.properties) { 
-                out.push(key + ": " + feature.properties[key]); 
-            } 
-            layer.bindPopup(out.join("<br />")); 
-        } 
-    } 
-}); 
-
-//////////// 
-
-load_wfs(); 
-load_wfs2(); 
 
 
 // Premier WFS, fonctionnel 
@@ -121,6 +95,37 @@ function load_wfs() {
     } 
 } 
 
+  
+// colorisation et table attributaire featureLayer2
+
+var featureLayer2 = new L.GeoJSON( 
+null, { 
+  //  style: styled(color= 'Peru', fillColor = 'Peru'), 
+           pointToLayer: function (feature, latlng) { 
+    var circleMarker2 = L.circleMarker(latlng, { 
+      radius: 8, 
+      fillColor: '#000000', 
+      color: "#000000", 
+      weight: 7, 
+      opacity: 0.5, 
+      fillOpacity: 0.5 
+    }); 
+    return(circleMarker2); 
+  }, 
+    onEachFeature:  
+    function popUpall2(feature, layer) { 
+        //console.info(feature); 
+        var out = []; 
+        if (feature.properties) { 
+            for (var key in feature.properties) { 
+                out.push(key + ": " + feature.properties[key]); 
+            } 
+            layer.bindPopup(out.join("<br />")); 
+        } 
+    } 
+}); 
+
+  
   
 // test wfs2 
 

@@ -1,9 +1,3 @@
-//////////// 
-
-load_wfs(); 
-load_wfs2(); 
-
-
 
 // feature layer
 
@@ -180,3 +174,9 @@ function load_wfs2() {
         featureLayer2.clearLayers(); 
     } 
 }
+
+//////////// 
+
+load_wfs(); 
+load_wfs2(); 
+
